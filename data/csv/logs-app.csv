@@ -1,0 +1,938 @@
+timestamp,service,level,message,logger,trace_id,environment,exception_type,exception_message,exception_stacktrace
+2026-02-17T04:49:36.037Z,inventory-service,INFO,Order created,com.company.inventoryservice.Service,811a2e7d366ab0d560c026f006400f4e,production,,,
+2026-02-17T04:50:03.642Z,notification-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.notificationservice.Service,276cc3fb1d21be6c1dc52c70a08f4623,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:67)"
+2026-02-17T04:50:37.052Z,payment-service,INFO,Order created,com.company.paymentservice.Service,3b1e36479d8c9354d887f8f5c68f493a,production,,,
+2026-02-17T04:51:09.183Z,payment-service,INFO,User session started,com.company.paymentservice.Service,cd0d854488c8b964c4ca36a4018d1e1b,production,,,
+2026-02-17T04:51:01.864Z,user-service,INFO,Payment initiated,com.company.userservice.Service,c292afcc1d56031b61ab5c14e41f612b,production,,,
+2026-02-17T04:51:05.127Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,4f9db69f13e742c184ecd8f0a7aff66c,production,,,
+2026-02-17T04:51:47.654Z,notification-service,INFO,Payment initiated,com.company.notificationservice.Service,b5b698daff0c6c5166ea11919a6fd706,production,,,
+2026-02-17T04:52:24.953Z,payment-service,INFO,User session started,com.company.paymentservice.Service,7b878b11e1eb8502712890afdc4332d2,production,,,
+2026-02-17T04:52:47.616Z,notification-service,INFO,Health check passed,com.company.notificationservice.Service,ea0de81574bfe3e499fe3c66fe518f83,production,,,
+2026-02-17T04:53:08.526Z,checkout-service,INFO,Request processed successfully,com.company.checkoutservice.Service,cc2856e2225a922abd7ca97bac46506d,production,,,
+2026-02-17T04:53:08.408Z,inventory-service,INFO,Order created,com.company.inventoryservice.Service,fc72080ba03cfea3503795caba9845c1,production,,,
+2026-02-17T04:53:37.580Z,inventory-service,INFO,Order created,com.company.inventoryservice.Service,8c823858461d5cf15870e8c1ad6c840b,production,,,
+2026-02-17T04:53:34.038Z,notification-service,INFO,User session started,com.company.notificationservice.Service,580d7a7f9d215e2e0e0a63a7b454f160,production,,,
+2026-02-17T04:53:27.785Z,notification-service,INFO,Health check passed,com.company.notificationservice.Service,ea9d862804075164763845bbfbd6afb2,production,,,
+2026-02-17T04:54:33.693Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,f39891254f2f6682f5ed57247dd45856,production,,,
+2026-02-17T04:54:51.482Z,checkout-service,INFO,Request processed successfully,com.company.checkoutservice.Service,cdd5e57ca50824518431154e69fa1540,production,,,
+2026-02-17T04:54:58.876Z,checkout-service,INFO,Payment initiated,com.company.checkoutservice.Service,4a83d2f645b5f0b05df598041e924e65,production,,,
+2026-02-17T04:55:31.349Z,user-service,INFO,Health check passed,com.company.userservice.Service,71c5dfa45cb40c8b92a54ef0f2b863e9,production,,,
+2026-02-17T04:55:30.966Z,checkout-service,INFO,Order created,com.company.checkoutservice.Service,19329b28ba6de554c2c4cc311e843a38,production,,,
+2026-02-17T04:55:43.371Z,checkout-service,INFO,Payment initiated,com.company.checkoutservice.Service,1dfc909f725129a5e4bb4da675821937,production,,,
+2026-02-17T04:55:55.027Z,inventory-service,INFO,Request processed successfully,com.company.inventoryservice.Service,ff4df7a565c044cc7be62f3be1c983aa,production,,,
+2026-02-17T04:56:19.385Z,inventory-service,INFO,Health check passed,com.company.inventoryservice.Service,c97d18c84f2d2d8456f543cf8d1543ac,production,,,
+2026-02-17T04:56:59.704Z,checkout-service,INFO,Request processed successfully,com.company.checkoutservice.Service,6dae561dd467246d213d812d057f7781,production,,,
+2026-02-17T04:57:23.221Z,inventory-service,INFO,User session started,com.company.inventoryservice.Service,b3c40b9eee87c836e20c4ca971ce8447,production,,,
+2026-02-17T04:56:45.268Z,payment-service,INFO,User session started,com.company.paymentservice.Service,2b92fc815c24219c9c84acb22cd3d6be,production,,,
+2026-02-17T04:57:27.417Z,inventory-service,INFO,Request processed successfully,com.company.inventoryservice.Service,a370209be3ea752f8b64aab165328588,production,,,
+2026-02-17T04:57:29.279Z,checkout-service,INFO,User session started,com.company.checkoutservice.Service,aec6a3035e8b9711e1a0832df41a33bc,production,,,
+2026-02-17T04:57:56.860Z,user-service,INFO,Order created,com.company.userservice.Service,c12da21e31fd05119bbfbc1fac749932,production,,,
+2026-02-17T04:58:47.075Z,notification-service,INFO,User session started,com.company.notificationservice.Service,29f588821b10c2aa83cef4106c12eb3b,production,,,
+2026-02-17T04:58:54.431Z,checkout-service,INFO,Order created,com.company.checkoutservice.Service,3f5eabec5485dc75a36971c8a4598077,production,,,
+2026-02-17T04:59:01.570Z,user-service,INFO,Payment initiated,com.company.userservice.Service,2c49d168e8a730ef76eb0ca1e1b3aa4b,production,,,
+2026-02-17T04:59:16.269Z,user-service,INFO,Payment initiated,com.company.userservice.Service,c387fca228375fb70846e199a8c7e15a,production,,,
+2026-02-17T04:59:13.064Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,a27472b8f699ce9d0242a380959dc30f,production,,,
+2026-02-17T05:00:15.871Z,user-service,INFO,Health check passed,com.company.userservice.Service,66534a997245428d1559e607ef715830,production,,,
+2026-02-17T04:59:47.435Z,payment-service,INFO,Order created,com.company.paymentservice.Service,78a1bd1b96adccce82c3ef5055ad4f67,production,,,
+2026-02-17T05:00:49.322Z,inventory-service,INFO,Health check passed,com.company.inventoryservice.Service,4c7e9a91562a4519eefb3a4006b5dcef,production,,,
+2026-02-17T05:00:53.722Z,inventory-service,INFO,Order created,com.company.inventoryservice.Service,86533a4cb1f92ca469796c2ef676ec57,production,,,
+2026-02-17T05:00:42.164Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,cf52b6761e7cc80bbc36173a16b3938e,production,,,
+2026-02-17T05:01:52.952Z,checkout-service,INFO,Health check passed,com.company.checkoutservice.Service,a3188652533e6f0bc6561639d6f18d01,production,,,
+2026-02-17T05:01:22.154Z,checkout-service,INFO,Request processed successfully,com.company.checkoutservice.Service,50a47ce4bc5f78ed64a2c7272fd4d462,production,,,
+2026-02-17T05:02:03.183Z,notification-service,INFO,Health check passed,com.company.notificationservice.Service,61ae7a4a4028cdfe05a8c18283b24105,production,,,
+2026-02-17T05:02:28.967Z,inventory-service,INFO,User session started,com.company.inventoryservice.Service,904e3df68b3f07d0c7d17b20ad363f2a,production,,,
+2026-02-17T05:02:59.877Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,66499815dd0327fa6660e64b8ea755f5,production,,,
+2026-02-17T05:03:06.270Z,user-service,INFO,Request processed successfully,com.company.userservice.Service,08f2899a9aba0e4a8a21ebc27e0bc3fc,production,,,
+2026-02-17T05:03:31.155Z,inventory-service,INFO,Order created,com.company.inventoryservice.Service,6a675da8ca0d6de4759272d7c93562c5,production,,,
+2026-02-17T05:03:13.317Z,inventory-service,INFO,User session started,com.company.inventoryservice.Service,21d9d86725cfc576340793be617a9bac,production,,,
+2026-02-17T05:03:50.359Z,checkout-service,INFO,Order created,com.company.checkoutservice.Service,4fee7f769de00442172cdff08d95f87b,production,,,
+2026-02-17T05:04:05.754Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,17541752a861bfbef5cce080170c01c6,production,,,
+2026-02-17T05:04:06.945Z,inventory-service,ERROR,Connection refused to payment-gateway,com.company.inventoryservice.Service,fdde5a3812ddf98c388154f41abe3b96,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:187)"
+2026-02-17T05:04:58.476Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,5971420c8a9c8e98618c96eeb52a4e2b,production,,,
+2026-02-17T05:05:25.977Z,inventory-service,INFO,Request processed successfully,com.company.inventoryservice.Service,4b6085f26361031ecc496111769f665a,production,,,
+2026-02-17T05:04:59.122Z,notification-service,INFO,User session started,com.company.notificationservice.Service,268c0b1a6e6b57f7f36686443c405fa1,production,,,
+2026-02-17T05:05:24.898Z,checkout-service,INFO,User session started,com.company.checkoutservice.Service,d1a7fe906b4763f6d0780c9f03941bd5,production,,,
+2026-02-17T05:06:24.163Z,inventory-service,INFO,Order created,com.company.inventoryservice.Service,1f321d7b6c388af062a0486bd1d88610,production,,,
+2026-02-17T05:05:59.009Z,notification-service,INFO,Payment initiated,com.company.notificationservice.Service,c27976b60fd7eaa0bbd9c58ee116fd59,production,,,
+2026-02-17T05:06:38.000Z,user-service,INFO,Payment initiated,com.company.userservice.Service,ebe8820461f64f5648ebae6cf6c290bc,production,,,
+2026-02-17T05:06:46.430Z,user-service,INFO,Payment initiated,com.company.userservice.Service,6d3b4a2edfdcbddb5ac05a5217259031,production,,,
+2026-02-17T05:07:14.736Z,user-service,INFO,Order created,com.company.userservice.Service,fffe5fb6db541ecea8335a41bbbc84a4,production,,,
+2026-02-17T05:06:57.995Z,payment-service,INFO,Order created,com.company.paymentservice.Service,5c6a656015a2d503a043cf3e93f6d352,production,,,
+2026-02-17T05:08:02.753Z,payment-service,INFO,User session started,com.company.paymentservice.Service,1bd8f30a157a2654444a5aa60999b7f4,production,,,
+2026-02-17T05:07:39.408Z,checkout-service,INFO,Payment initiated,com.company.checkoutservice.Service,0089de04f00e5be0a9c3d53fac55aa65,production,,,
+2026-02-17T05:08:45.732Z,checkout-service,INFO,User session started,com.company.checkoutservice.Service,c93ac6175d9dc5d8ff2a2a49095cf687,production,,,
+2026-02-17T05:08:32.001Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,d2ad1e5211b86c4afae7897ab6cf1050,production,,,
+2026-02-17T05:08:59.335Z,checkout-service,INFO,Payment initiated,com.company.checkoutservice.Service,cd54182fe320c01cc3363b9a3693026f,production,,,
+2026-02-17T05:08:51.327Z,inventory-service,INFO,Health check passed,com.company.inventoryservice.Service,9769e9240afe5f1436ab971a177d0c14,production,,,
+2026-02-17T05:09:55.874Z,checkout-service,INFO,Payment initiated,com.company.checkoutservice.Service,47a131e7969a56e6a524eb8b3c18148a,production,,,
+2026-02-17T05:09:58.584Z,user-service,INFO,Health check passed,com.company.userservice.Service,bf466dbe981500caf783fb4a79d8de16,production,,,
+2026-02-17T05:10:26.024Z,notification-service,INFO,Order created,com.company.notificationservice.Service,fb22fb26f9c14229b92452e65e24360c,production,,,
+2026-02-17T05:10:41.954Z,user-service,INFO,Health check passed,com.company.userservice.Service,c44b96e378104dbd093255f23cdf954e,production,,,
+2026-02-17T05:10:56.686Z,inventory-service,INFO,Request processed successfully,com.company.inventoryservice.Service,097e5348aacad0b915f03d057163d074,production,,,
+2026-02-17T05:11:03.015Z,user-service,INFO,Request processed successfully,com.company.userservice.Service,10060f3cb26eb1e76e52de4a14e8eb16,production,,,
+2026-02-17T05:11:30.888Z,user-service,INFO,Order created,com.company.userservice.Service,c0324da2702f07012cef7843966fd6c5,production,,,
+2026-02-17T05:11:19.982Z,checkout-service,INFO,Health check passed,com.company.checkoutservice.Service,d65f33e015e4c4799bcfdb856c3af5db,production,,,
+2026-02-17T05:12:12.881Z,notification-service,INFO,User session started,com.company.notificationservice.Service,458051206c2fd1ad2420af4d1e06519c,production,,,
+2026-02-17T05:11:49.519Z,notification-service,INFO,Request processed successfully,com.company.notificationservice.Service,9cc368e6ff7341ceac3829adf3493acd,production,,,
+2026-02-17T05:12:51.281Z,user-service,INFO,Order created,com.company.userservice.Service,7e177eb61bf129cf5a453f7bcedabfcb,production,,,
+2026-02-17T05:12:26.192Z,inventory-service,INFO,User session started,com.company.inventoryservice.Service,d622e2df76ceb676e194a278691b7552,production,,,
+2026-02-17T05:12:53.680Z,inventory-service,INFO,Health check passed,com.company.inventoryservice.Service,05d5690ff8c0622db29788c05f9e2856,production,,,
+2026-02-17T05:13:54.591Z,user-service,INFO,User session started,com.company.userservice.Service,256eaca02eb545e8b650b667ffe8ae76,production,,,
+2026-02-17T05:13:43.820Z,user-service,INFO,Payment initiated,com.company.userservice.Service,708e634f1c1e0ada10244cb181cdd2ac,production,,,
+2026-02-17T05:14:29.252Z,user-service,INFO,Request processed successfully,com.company.userservice.Service,7b3599f5b7e0f67b385be7a8f338fcef,production,,,
+2026-02-17T05:14:42.023Z,checkout-service,INFO,User session started,com.company.checkoutservice.Service,4d46bb8ea57fc7d64f2bb1f86a84ba2c,production,,,
+2026-02-17T05:14:18.421Z,user-service,INFO,User session started,com.company.userservice.Service,d3f0b04af8567811decae2e93254ebed,production,,,
+2026-02-17T05:15:01.631Z,checkout-service,INFO,Order created,com.company.checkoutservice.Service,ec3b20ed5c43d92e0ce5e5f131fc38be,production,,,
+2026-02-17T05:15:06.069Z,notification-service,INFO,Order created,com.company.notificationservice.Service,300fe1bd4aacc97cf856513d50a755f3,production,,,
+2026-02-17T05:15:06.167Z,notification-service,INFO,User session started,com.company.notificationservice.Service,eea15a91f4efc4c4445e94a3f2cd17d0,production,,,
+2026-02-17T05:16:15.180Z,user-service,INFO,Health check passed,com.company.userservice.Service,eedc3bfbbb8669a52beff57690a4b5f1,production,,,
+2026-02-17T05:15:41.910Z,inventory-service,INFO,Order created,com.company.inventoryservice.Service,e73721a6dcdbd620a38ef81d146db044,production,,,
+2026-02-17T05:16:47.292Z,checkout-service,INFO,Health check passed,com.company.checkoutservice.Service,b8477263ee6dc3fc8be2c836e829acdc,production,,,
+2026-02-17T05:16:20.261Z,checkout-service,INFO,Payment initiated,com.company.checkoutservice.Service,4aedb6757dde0f07535a9a93f5534012,production,,,
+2026-02-17T05:17:01.461Z,checkout-service,INFO,Payment initiated,com.company.checkoutservice.Service,63c5a22fa8e5273be55e2185548c0f6c,production,,,
+2026-02-17T05:17:05.527Z,user-service,INFO,Health check passed,com.company.userservice.Service,562e6260493a87a68481f64fed440f51,production,,,
+2026-02-17T05:17:16.936Z,inventory-service,INFO,Health check passed,com.company.inventoryservice.Service,edafa981e9bb1f75693c166ce9f66350,production,,,
+2026-02-17T05:18:04.052Z,user-service,INFO,Order created,com.company.userservice.Service,dd8036ceae1a9492b64ab7c515a5d666,production,,,
+2026-02-17T05:17:55.039Z,user-service,INFO,Request processed successfully,com.company.userservice.Service,3f1a2f3f1a44903826cbf0cc5f0696ba,production,,,
+2026-02-17T05:18:17.799Z,inventory-service,INFO,Request processed successfully,com.company.inventoryservice.Service,d89a2a0d420cc028aa2c260188060107,production,,,
+2026-02-17T05:19:18.084Z,notification-service,INFO,Order created,com.company.notificationservice.Service,ccedc10f3417f451d03656f1e8914763,production,,,
+2026-02-17T05:19:33.054Z,user-service,INFO,User session started,com.company.userservice.Service,9a4fc7e4111046a3fea7e72fb20f4806,production,,,
+2026-02-17T05:19:10.228Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,22f80f7e669be2fd4b86322e690a87c9,production,,,
+2026-02-17T05:20:06.849Z,checkout-service,INFO,User session started,com.company.checkoutservice.Service,b80f456b928734f8e53f1608a1243735,production,,,
+2026-02-17T05:19:45.458Z,checkout-service,INFO,Order created,com.company.checkoutservice.Service,3c27388eb46dc75a328caf337180b305,production,,,
+2026-02-17T05:20:02.286Z,inventory-service,INFO,Request processed successfully,com.company.inventoryservice.Service,ae1de4a9d47232a45b3117ae6e5552c1,production,,,
+2026-02-17T05:20:52.730Z,user-service,ERROR,External service payment-gateway is unavailable,com.company.userservice.Service,b1f50108cdb7569d758ee2fc1340ad3a,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:198)"
+2026-02-17T05:20:30.490Z,checkout-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.checkoutservice.Service,eb0c23e3dda369759c428f7da9f58c4c,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:76)"
+2026-02-17T05:21:13.239Z,payment-service,INFO,User session started,com.company.paymentservice.Service,50ab98ca69292a620e434f016daba49c,production,,,
+2026-02-17T05:21:11.515Z,checkout-service,INFO,User session started,com.company.checkoutservice.Service,e42374d5bf1c1d667e910fc6733f77ce,production,,,
+2026-02-17T05:21:52.310Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,ed090371283960bf20f70639e17bb146,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:60)"
+2026-02-17T05:22:25.030Z,payment-service,INFO,Order created,com.company.paymentservice.Service,82587a2519b6f3d79386b7b4c7805be0,production,,,
+2026-02-17T05:22:15.437Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,f4ad82cc0c3b8c067638cdc735b3dd25,production,,,
+2026-02-17T05:22:27.019Z,checkout-service,INFO,Payment initiated,com.company.checkoutservice.Service,e557a479b0158e9c7eee4951ddda81d4,production,,,
+2026-02-17T05:23:16.310Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,8cb603767a516ab27fe38e476905fbb1,production,,,
+2026-02-17T05:23:33.506Z,notification-service,INFO,Payment initiated,com.company.notificationservice.Service,b972e5345fa6bd67772e8d348f266ac4,production,,,
+2026-02-17T05:23:21.879Z,notification-service,INFO,Request processed successfully,com.company.notificationservice.Service,c7fb2f2fb2f9980ab63c556649bff5b6,production,,,
+2026-02-17T05:23:30.360Z,notification-service,INFO,User session started,com.company.notificationservice.Service,3550d8de0cb68a52fa12e0683316129e,production,,,
+2026-02-17T05:24:38.049Z,user-service,INFO,Health check passed,com.company.userservice.Service,cdd8317a818270587bcbda5952a26051,production,,,
+2026-02-17T05:24:14.346Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,e18be10679dde1498fcf24838ddc6bee,production,,,
+2026-02-17T05:24:57.231Z,user-service,INFO,Order created,com.company.userservice.Service,2cd4b2e80089445839cf37cc6a170ad6,production,,,
+2026-02-17T05:25:03.553Z,payment-service,INFO,User session started,com.company.paymentservice.Service,935388415844e1f5dc07a73a90f184e9,production,,,
+2026-02-17T05:25:38.198Z,checkout-service,INFO,Order created,com.company.checkoutservice.Service,cc38183ac96244f3dd3c0933574a2640,production,,,
+2026-02-17T05:25:50.827Z,inventory-service,INFO,User session started,com.company.inventoryservice.Service,d8d1fcd7897375969650ab667d022fc0,production,,,
+2026-02-17T05:25:42.320Z,inventory-service,INFO,Health check passed,com.company.inventoryservice.Service,8d682296078096a3b512578b11e2c5ab,production,,,
+2026-02-17T05:26:04.384Z,user-service,INFO,Health check passed,com.company.userservice.Service,99d1ea18e6a08ff5379aa2eb3585bf87,production,,,
+2026-02-17T05:26:13.172Z,checkout-service,INFO,User session started,com.company.checkoutservice.Service,7e8057f2bd005f7276db03dccceb73aa,production,,,
+2026-02-17T05:27:07.283Z,notification-service,INFO,Request processed successfully,com.company.notificationservice.Service,4cc01dfee83be911f90c598cf9201629,production,,,
+2026-02-17T05:27:35.521Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,a0677662b59623d51c941617c1833d34,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:131)"
+2026-02-17T05:27:42.956Z,inventory-service,INFO,Order created,com.company.inventoryservice.Service,7d60d50bf66208acb91925044d56f1be,production,,,
+2026-02-17T05:28:03.390Z,checkout-service,INFO,Order created,com.company.checkoutservice.Service,c9449d96cd7c14090774627b405a438b,production,,,
+2026-02-17T05:28:18.744Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,cb25f2d36a8a56b3c00e12d12284027d,production,,,
+2026-02-17T05:27:58.772Z,notification-service,INFO,Order created,com.company.notificationservice.Service,a74e11999e286c8516d5f6cc2be6c34a,production,,,
+2026-02-17T05:28:39.084Z,user-service,INFO,User session started,com.company.userservice.Service,4c432b4c22c4d8bbfafa76c7ccd1cddc,production,,,
+2026-02-17T05:29:08.129Z,notification-service,INFO,Health check passed,com.company.notificationservice.Service,51a0459a575f05f0b14b6324c588fb4d,production,,,
+2026-02-17T05:28:59.842Z,user-service,INFO,Payment initiated,com.company.userservice.Service,a8ea6432c8778036f9b1cdb881361c1d,production,,,
+2026-02-17T05:29:57.503Z,checkout-service,INFO,User session started,com.company.checkoutservice.Service,7f4a471e1e66ab3f5cfcd76b3923e08f,production,,,
+2026-02-17T05:29:48.659Z,notification-service,INFO,Health check passed,com.company.notificationservice.Service,49ff6c8131f269970a548c8fe5cb0b57,production,,,
+2026-02-17T05:29:50.716Z,notification-service,INFO,Order created,com.company.notificationservice.Service,cd0dac38d1e71f203f1797f227ee5e9f,production,,,
+2026-02-17T05:30:49.068Z,payment-service,INFO,User session started,com.company.paymentservice.Service,d0a1e03b956ff370cae2ebc069c42d23,production,,,
+2026-02-17T05:31:13.374Z,user-service,INFO,Order created,com.company.userservice.Service,a82f9c960143f33845a473612cef08eb,production,,,
+2026-02-17T05:31:03.928Z,payment-service,INFO,User session started,com.company.paymentservice.Service,98c79edacbf7479d9b7caabb81aa7e5d,production,,,
+2026-02-17T05:31:33.397Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,09626f23e29d4494ac59a2517f6017f0,production,,,
+2026-02-17T05:32:05.042Z,payment-service,INFO,User session started,com.company.paymentservice.Service,251b4e1ba5264bb8c633f7f6c0ff0184,production,,,
+2026-02-17T05:31:43.452Z,user-service,INFO,Request processed successfully,com.company.userservice.Service,6f9e8972dc1ba77ffadf2897680e4422,production,,,
+2026-02-17T05:31:58.993Z,checkout-service,INFO,Request processed successfully,com.company.checkoutservice.Service,12e27433b3a382463d1adf036bdb4b9b,production,,,
+2026-02-17T05:32:42.166Z,checkout-service,INFO,Payment initiated,com.company.checkoutservice.Service,23473024f9fd33587e21553b3edff478,production,,,
+2026-02-17T05:33:21.521Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,821f67e1631dbf2c3da40ae71400b31a,production,,,
+2026-02-17T05:33:37.330Z,notification-service,INFO,User session started,com.company.notificationservice.Service,bf9c312ed7dd818bb45f75d72c7ca4cc,production,,,
+2026-02-17T05:33:31.834Z,user-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.userservice.Service,570ce09eea97dc892e81a4095d4be625,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:53)"
+2026-02-17T05:33:55.183Z,user-service,INFO,Request processed successfully,com.company.userservice.Service,25ebe5ea5b582bdba037e916d6691966,production,,,
+2026-02-17T05:33:55.446Z,checkout-service,INFO,Request processed successfully,com.company.checkoutservice.Service,6577ae8c8e1509c356d8fdadcffbfc38,production,,,
+2026-02-17T05:34:25.601Z,notification-service,INFO,Order created,com.company.notificationservice.Service,c0c744018c9244ac97df463b4f61d6e4,production,,,
+2026-02-17T05:34:30.010Z,inventory-service,INFO,Order created,com.company.inventoryservice.Service,dd8f336163482498eb071d6c160b4aea,production,,,
+2026-02-17T05:35:00.216Z,notification-service,INFO,Request processed successfully,com.company.notificationservice.Service,963dfa4467855cbfb673f68949d3d6a4,production,,,
+2026-02-17T05:35:04.924Z,checkout-service,INFO,Payment initiated,com.company.checkoutservice.Service,e5a2f3108c7fe3e1a044916f5f2797b8,production,,,
+2026-02-17T05:35:34.665Z,user-service,INFO,User session started,com.company.userservice.Service,afafab3a7ec585583d521c1c5db981eb,production,,,
+2026-02-17T05:36:02.710Z,checkout-service,INFO,Payment initiated,com.company.checkoutservice.Service,e9b1f5d7a7357396e54cf4fd17080e25,production,,,
+2026-02-17T05:36:28.826Z,user-service,INFO,Payment initiated,com.company.userservice.Service,e45a8696620503feef806b96d44c4e1b,production,,,
+2026-02-17T05:36:25.173Z,inventory-service,INFO,Request processed successfully,com.company.inventoryservice.Service,653d6c3b7b20edfdb5b414b848460e4c,production,,,
+2026-02-17T05:36:24.246Z,checkout-service,INFO,Order created,com.company.checkoutservice.Service,91c96b4daf773b463b53c9afbe57d7ac,production,,,
+2026-02-17T05:37:33.751Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,4eed4298e7d7ee6aa049a0ea7b976afb,production,,,
+2026-02-17T05:37:35.389Z,checkout-service,INFO,User session started,com.company.checkoutservice.Service,bde51571a74b02be62a2bee1f8713806,production,,,
+2026-02-17T05:37:43.939Z,notification-service,INFO,Request processed successfully,com.company.notificationservice.Service,95ce8f3b26feb09597aec828ca53c671,production,,,
+2026-02-17T05:37:40.720Z,checkout-service,INFO,Health check passed,com.company.checkoutservice.Service,d348f5a65181a503cd804401a3ba50ca,production,,,
+2026-02-17T05:37:58.070Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,9654cc1c0abf8ee2b396258f652759af,production,,,
+2026-02-17T05:38:11.237Z,inventory-service,INFO,Health check passed,com.company.inventoryservice.Service,9beb9114a0a422d54240714a247d558b,production,,,
+2026-02-17T05:38:47.198Z,inventory-service,INFO,User session started,com.company.inventoryservice.Service,d477d3e49c297f8fee51e1554b7147a1,production,,,
+2026-02-17T05:39:07.545Z,notification-service,INFO,Request processed successfully,com.company.notificationservice.Service,6fe320f2837594ebb4d9ae21c87999ab,production,,,
+2026-02-17T05:39:56.086Z,user-service,ERROR,Connection refused to payment-gateway,com.company.userservice.Service,a1b832249e15ef538b3fcab7ae4c0584,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:179)"
+2026-02-17T05:39:58.366Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,44c36c060f6d31586e609dc0e79ac2c4,production,,,
+2026-02-17T05:39:41.062Z,inventory-service,INFO,Request processed successfully,com.company.inventoryservice.Service,cf02da7783529318b2edfd43c62dea48,production,,,
+2026-02-17T05:40:36.744Z,checkout-service,INFO,Order created,com.company.checkoutservice.Service,d502e970b612c5a5a0e64e3a12597b97,production,,,
+2026-02-17T05:40:34.435Z,inventory-service,INFO,Order created,com.company.inventoryservice.Service,00d359c389a5c2d33dba41700ab2f98d,production,,,
+2026-02-17T05:40:51.444Z,inventory-service,INFO,User session started,com.company.inventoryservice.Service,8e10128f2856c79d45fb991d66e12a55,production,,,
+2026-02-17T05:40:55.944Z,checkout-service,INFO,Health check passed,com.company.checkoutservice.Service,c185aa8c1758dc332bc991cbcd7cdd9c,production,,,
+2026-02-17T05:41:50.968Z,notification-service,INFO,Payment initiated,com.company.notificationservice.Service,beff34491c9bf8074b7d9d41908a332e,production,,,
+2026-02-17T05:41:34.436Z,user-service,INFO,User session started,com.company.userservice.Service,b6775b413029990bdee3913a24c3d538,production,,,
+2026-02-17T05:42:21.646Z,payment-service,INFO,Order created,com.company.paymentservice.Service,fe9564459d37729f1137c356a4261432,production,,,
+2026-02-17T05:42:35.397Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,63dfa12e24017fd83af055bbecd69900,production,,,
+2026-02-17T05:42:43.745Z,notification-service,ERROR,External service payment-gateway is unavailable,com.company.notificationservice.Service,abe549395fa1a17400f8123c11b507a1,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:141)"
+2026-02-17T05:42:53.682Z,user-service,INFO,Payment initiated,com.company.userservice.Service,8f1d7652040b798a4d6deea119fa9763,production,,,
+2026-02-17T05:43:53.040Z,checkout-service,INFO,Payment initiated,com.company.checkoutservice.Service,9c0862ea0e4c55ccb4ca5150aa52c06f,production,,,
+2026-02-17T05:43:23.353Z,user-service,INFO,Request processed successfully,com.company.userservice.Service,f672d2f912b5c9989eab562459014805,production,,,
+2026-02-17T05:44:06.250Z,payment-service,INFO,Order created,com.company.paymentservice.Service,cbd38442467086a97c3bdfcf0403d1a6,production,,,
+2026-02-17T05:44:45.563Z,user-service,INFO,Payment initiated,com.company.userservice.Service,846f0b1b4a0a13b7b47c8c46dbb03af8,production,,,
+2026-02-17T05:44:09.403Z,user-service,INFO,Health check passed,com.company.userservice.Service,50ee239035b928efc38dff0a6af22e68,production,,,
+2026-02-17T05:44:29.048Z,user-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.userservice.Service,a4870e5bb6931a8fea0707ad18fced40,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:91)"
+2026-02-17T05:44:52.220Z,user-service,INFO,Health check passed,com.company.userservice.Service,d2887c3796637961b1ed7d2722e5770e,production,,,
+2026-02-17T05:45:25.310Z,user-service,INFO,Order created,com.company.userservice.Service,c67f2a03a70186207d279532a02d6af9,production,,,
+2026-02-17T05:45:23.281Z,inventory-service,INFO,Payment initiated,com.company.inventoryservice.Service,0b9a1eddd4e388f21ce5ac934203e4c5,production,,,
+2026-02-17T05:46:12.450Z,notification-service,INFO,Health check passed,com.company.notificationservice.Service,a83b54fea850d80b7b893a1217cb7ad8,production,,,
+2026-02-17T05:46:30.650Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,980f2726c0e01946aacb53244c915fda,production,,,
+2026-02-17T05:47:08.864Z,notification-service,INFO,Order created,com.company.notificationservice.Service,184e483fddb372be062f2ef3b4eb8246,production,,,
+2026-02-17T05:46:46.021Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,33c46703cb946a7b76acdd7215347eea,production,,,
+2026-02-17T05:47:30.508Z,payment-service,INFO,User session started,com.company.paymentservice.Service,d80670c4d78fba5ce83b8714315205c4,production,,,
+2026-02-17T05:47:24.538Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,324c96ccd56f1e51f51793592b77d1a2,production,,,
+2026-02-17T05:47:45.219Z,checkout-service,INFO,Payment initiated,com.company.checkoutservice.Service,c7da3ef0e8c5cbbe4ce4bb8e1b5baac3,production,,,
+2026-02-17T05:47:51.851Z,inventory-service,INFO,Order created,com.company.inventoryservice.Service,f2435b2219c5de752f10625789d43351,production,,,
+2026-02-17T05:48:43.856Z,notification-service,INFO,Request processed successfully,com.company.notificationservice.Service,50e1234392a007c816f601b233730256,production,,,
+2026-02-17T05:48:25.440Z,notification-service,INFO,Payment initiated,com.company.notificationservice.Service,67e41de3af46a7d4a8fb215c5bccdd01,production,,,
+2026-02-17T05:48:38.775Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,d83f6144e46cca38d60c3640cf830acb,production,,,
+2026-02-17T05:49:51.947Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,b2828274e4f25367d0902cd5e13b7486,production,,,
+2026-02-17T05:49:41.413Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,1f0ea21b31a706d6354448ddb9022aac,production,,,
+2026-02-17T04:50:21.224Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,47969a54f1aa76451021eb13d77d0299,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:193)"
+2026-02-17T04:50:24.300Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,ad05bc2428ada9a421fb18f02c435f30,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:192)"
+2026-02-17T04:49:50.040Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,24ad5b5cb3fd31b54090214c26e61214,production,,,
+2026-02-17T04:50:41.311Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,f78f36266a89ba4dd6d31bb04e4ee234,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:139)"
+2026-02-17T04:50:54.236Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,11b0721b1b8871b21e18d4ad411777ef,production,,,
+2026-02-17T04:50:54.669Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,b6bfecc9a2fec2d88d7412ff6e05a3d1,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:128)"
+2026-02-17T04:50:26.494Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,36551a452ddb4d7e3cfd82b26b3d8f62,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:188)"
+2026-02-17T04:50:43.338Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,0baf52de2da2f3e0b88f6ae439d21193,production,,,
+2026-02-17T04:50:40.166Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,87d7fb7681f50930d6afe68663e2f7e0,production,,,
+2026-02-17T04:51:13.206Z,payment-service,FATAL,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,9d2f0794de7c1beba554573e9639f6a6,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:104)"
+2026-02-17T04:51:03.079Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,aa17a6168ab99316b9f7da4645deb83d,production,,,
+2026-02-17T04:50:51.526Z,payment-service,INFO,Order created,com.company.paymentservice.Service,846376813117ff71e949daae4a7f1878,production,,,
+2026-02-17T04:51:44.093Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,eeacdb52f8e85b8ab91c47a6f0626e77,production,,,
+2026-02-17T04:51:28.711Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,6e8b20da35d734dddad7bc92d93d3586,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:144)"
+2026-02-17T04:52:03.753Z,payment-service,INFO,User session started,com.company.paymentservice.Service,b925d0676790ca3c0209b1964a6484e4,production,,,
+2026-02-17T04:52:18.618Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,470dbf3a4bc0dd44499b3b6201eadd00,production,,,
+2026-02-17T04:52:07.509Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,0c2538c8df934ef79af9f2e52d20d251,production,,,
+2026-02-17T04:51:35.205Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,1842d7a269031efccffe295b3d714d32,production,,,
+2026-02-17T04:51:55.953Z,payment-service,FATAL,Connection refused to payment-gateway,com.company.paymentservice.Service,0459a540c0e668408a5d42f7fcb29724,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:127)"
+2026-02-17T04:52:29.322Z,payment-service,INFO,User session started,com.company.paymentservice.Service,22a66953b6cc01517ca54eaba06784ea,production,,,
+2026-02-17T04:52:34.531Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,948805a3a57140332a9fbb2573dc9785,production,,,
+2026-02-17T04:52:08.513Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,00a5ab1d96815f838fd939b949694b9c,production,,,
+2026-02-17T04:53:07.257Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,7e84c6abd0cfe1ead087a1b3241e1948,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:152)"
+2026-02-17T04:52:31.960Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,f85a7f2988c77e8766a3542397da0039,production,,,
+2026-02-17T04:52:39.752Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,dc5e75782b68eeae2a82014dad588447,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:85)"
+2026-02-17T04:53:00.093Z,payment-service,INFO,Order created,com.company.paymentservice.Service,d1124db79a7ec4e40f15e03eff9a3f2f,production,,,
+2026-02-17T04:53:04.970Z,payment-service,INFO,Order created,com.company.paymentservice.Service,82305f5946ff082f358b114392661da7,production,,,
+2026-02-17T04:53:35.574Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,94db0072671875d3a7eb050b9c1f1a78,production,,,
+2026-02-17T04:53:10.427Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,97f261912faee8dfb801d54010f780c2,production,,,
+2026-02-17T04:53:27.709Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,4531f14ca43be2645cfa95dd82dfdcbe,production,,,
+2026-02-17T04:53:49.529Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,09f7de0846a3eefa49204f1a2fb98d8e,production,,,
+2026-02-17T04:53:35.089Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,c0d9cf595bae2ce7f2edee3123fa144b,production,,,
+2026-02-17T04:53:27.367Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,15bb1dabab21022026b5d919598c7192,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:143)"
+2026-02-17T04:53:37.017Z,payment-service,INFO,User session started,com.company.paymentservice.Service,ef33c909f632f65143eb533d72fbd9bb,production,,,
+2026-02-17T04:54:35.462Z,payment-service,INFO,User session started,com.company.paymentservice.Service,6a3bc523121477d2d7779cc4702c57ae,production,,,
+2026-02-17T04:54:34.501Z,payment-service,FATAL,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,2d4d2517fafaef6bd613c444af254152,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:88)"
+2026-02-17T04:54:03.560Z,payment-service,INFO,Order created,com.company.paymentservice.Service,76443442cea4c781029283389566e37e,production,,,
+2026-02-17T04:54:51.636Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,ac1b57383118a21ff2b67ab00ca90a54,production,,,
+2026-02-17T04:54:28.705Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,e6aa2dec19d9e5878be2f0a4d1295c6f,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:192)"
+2026-02-17T04:54:38.265Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,223095f625833081e96e6ab5319e53a6,production,,,
+2026-02-17T04:54:31.705Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,c1b785b6d7e54a5cf3383342af638726,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:106)"
+2026-02-17T04:54:43.314Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,9619ab50c8316cc85e4a3dbe0b5a9877,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:160)"
+2026-02-17T04:54:36.015Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,7f372d6f546c352148df0307431bd31b,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:145)"
+2026-02-17T04:54:45.753Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,0ee1ac8b0c4d3015e1770d5798a83160,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:175)"
+2026-02-17T04:55:36.601Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,9fcc48aa3b56c122a6a7666fecfe71a9,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:122)"
+2026-02-17T04:55:52.394Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,5cb1817b874ecd0fd8d78a6b36e84116,production,,,
+2026-02-17T04:55:08.446Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,8f060557fb171a1056b1f6edb2b700bc,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:149)"
+2026-02-17T04:56:08.250Z,payment-service,INFO,User session started,com.company.paymentservice.Service,4b265a23b10b2f153339155002db7cc1,production,,,
+2026-02-17T04:55:40.392Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,0fef1e1a29c89c1b965b4898ec4f9648,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:102)"
+2026-02-17T04:56:12.782Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,a17f597633a59cfec074797b121aef81,production,,,
+2026-02-17T04:56:06.595Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,0273f6eabc14d0d8e39cb055118e1151,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:66)"
+2026-02-17T04:56:26.231Z,payment-service,INFO,User session started,com.company.paymentservice.Service,8f8bad0f217eb69a3aaddac10bd1abc2,production,,,
+2026-02-17T04:56:21.602Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,a32b983a58828108b3781dda0bb424d1,production,,,
+2026-02-17T04:56:50.332Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,91743011320805643cc845674fdde2e7,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:169)"
+2026-02-17T04:56:59.794Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,657b304aeda0b4fcc1f25736bb041393,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:54)"
+2026-02-17T04:57:01.255Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,2a21b219710988707ed04847243dd05d,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:88)"
+2026-02-17T04:56:26.844Z,payment-service,INFO,User session started,com.company.paymentservice.Service,3a852491bd924d3c3431fb563abfe014,production,,,
+2026-02-17T04:56:39.017Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,9f0bea9ce548e71bb63851cf0ce94caa,production,,,
+2026-02-17T04:56:58.798Z,payment-service,INFO,User session started,com.company.paymentservice.Service,49e4b74aa02a2136a6163c16f4eecf20,production,,,
+2026-02-17T04:57:10.072Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,071cca6311833394e0101a8b2c1164ad,production,,,
+2026-02-17T04:57:14.738Z,payment-service,INFO,User session started,com.company.paymentservice.Service,6a3658aa4c8d30191c6ebbe51cb54593,production,,,
+2026-02-17T04:56:54.358Z,payment-service,INFO,Order created,com.company.paymentservice.Service,09a1c118f9f9df6848f7915f79e29793,production,,,
+2026-02-17T04:57:30.273Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,cb8640c45f524e6b0de2ff4dcc6be5a5,production,,,
+2026-02-17T04:57:09.732Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,22a08c6f10761170541d482054dd6b7f,production,,,
+2026-02-17T04:57:50.889Z,payment-service,INFO,Order created,com.company.paymentservice.Service,84d759e326ff3bc7e17b89c5d829f35f,production,,,
+2026-02-17T04:57:56.632Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,0fd3978be682f7c04b594cb5719f2032,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:101)"
+2026-02-17T04:57:50.146Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,08377d7e3633fc679905efedf91b5bd4,production,,,
+2026-02-17T04:57:40.054Z,payment-service,INFO,Order created,com.company.paymentservice.Service,6c421bf9dd2f1b5b795b68359dfb43c4,production,,,
+2026-02-17T04:58:20.914Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,c3cda9c64035b63ecf95ec0dc6d8f233,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:70)"
+2026-02-17T04:58:35.914Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,a8c24091cf0b0dc2cb56b1481fe249b6,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:185)"
+2026-02-17T04:58:40.173Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,48ee2eac44515565e5d2d069c86b302e,production,,,
+2026-02-17T04:58:06.130Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,b908cf66b2866793e5ac3dd3e709d74a,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:94)"
+2026-02-17T04:58:26.797Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,369dbaf8be0a829dda0289baefc4a252,production,,,
+2026-02-17T04:58:26.553Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,429f237d3c46dffe5455d7ae5118030f,production,,,
+2026-02-17T04:59:01.095Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,91565a09ddee3e7794b42a26403ea0d7,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:72)"
+2026-02-17T04:59:23.776Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,9cb2d85b646611636e7c448b7346b4ca,production,,,
+2026-02-17T04:59:26.764Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,fa9c3b4ab2c5df8d481f3ba5765870f6,production,,,
+2026-02-17T04:59:14.945Z,payment-service,INFO,User session started,com.company.paymentservice.Service,218c82a3131dae2e3ad3a94e626b82d3,production,,,
+2026-02-17T04:59:07.061Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,9ccaff4ff0b105e8ea2e68c95aecfe9c,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:59)"
+2026-02-17T04:59:23.108Z,payment-service,INFO,User session started,com.company.paymentservice.Service,bcce2d29aef39968ead7d0dfdb1963f9,production,,,
+2026-02-17T04:59:26.024Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,c8df0436d66cacef0ce85b177353519d,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:130)"
+2026-02-17T04:59:40.181Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,caad374f6a52213497f71cce37a797c9,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:108)"
+2026-02-17T04:59:52.846Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,56969dd25550c4f1377b1b7f676544f6,production,,,
+2026-02-17T04:59:39.303Z,payment-service,INFO,Order created,com.company.paymentservice.Service,d49ab3d4bfc095981e7d0551ddc014f0,production,,,
+2026-02-17T04:59:46.479Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,830c0e985ec50fab90e3e0a56c5d78fe,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:102)"
+2026-02-17T05:00:21.096Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,53a15da04fcb9089ac5b78c485a46a93,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:160)"
+2026-02-17T05:00:12.208Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,444a23cf5b233b234020e4d9a9611ddd,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:126)"
+2026-02-17T05:00:29.727Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,3bd546520bdf7bc09290bcea1faa4540,production,,,
+2026-02-17T05:00:40.326Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,ba76275e0b7a35b67237ae12ddb82959,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:115)"
+2026-02-17T05:01:04.567Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,b92ddc4be89bb3fa289d04848a0e693d,production,,,
+2026-02-17T05:00:33.567Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,1ee202d0bf6d92f3d368568c059c317a,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:57)"
+2026-02-17T05:00:56.826Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,323b5fbc546034b29faf1f49292aed25,production,,,
+2026-02-17T05:01:16.984Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,63021d24c4927dba761dd6b8ccdd5a02,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:158)"
+2026-02-17T05:00:48.454Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,8b7b0c7972f52186049c502b239c5a27,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:120)"
+2026-02-17T05:01:28.493Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,9f28e5510de03ec49750ae44bdf089f5,production,,,
+2026-02-17T05:01:08.752Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,34cd72621a5b2427f5c155a4847a289d,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:142)"
+2026-02-17T05:01:32.717Z,payment-service,INFO,Order created,com.company.paymentservice.Service,e2c1288f8caa4816a3687479a43fed1c,production,,,
+2026-02-17T05:01:28.358Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,7042518a743a89edda94b33bb47d4124,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:123)"
+2026-02-17T05:02:05.779Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,9c21a53163d6bec730f1b9e443e9967b,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:116)"
+2026-02-17T05:01:54.674Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,75652d3718668187115c563532f0e1d7,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:79)"
+2026-02-17T05:02:17.475Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,ef424bc418ab70814b24dacf2c50fef8,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:102)"
+2026-02-17T05:02:09.406Z,payment-service,INFO,User session started,com.company.paymentservice.Service,c2325e8431270c317da21eb339cde2bf,production,,,
+2026-02-17T05:02:21.776Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,14c12902ba20db08748c57753515f359,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:98)"
+2026-02-17T05:02:50.424Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,52775940bff8c0471a3f4df22825f6e3,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:63)"
+2026-02-17T05:02:06.634Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,7ed8965c339b3b1d05d8a22b7934e85b,production,,,
+2026-02-17T05:02:13.217Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,4afe66e1720bbaf292969e7ccd2f8e5d,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:199)"
+2026-02-17T05:02:53.970Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,c157eadc8a02b562d8b90e32fb08b5f6,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:53)"
+2026-02-17T05:02:51.309Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,70b004a472ee85fc1940c96f1236c420,production,,,
+2026-02-17T05:03:18.313Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,82a21747b088688e4dc1b6a12dd63108,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:190)"
+2026-02-17T05:03:03.115Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,c7c30442cbce11befd96bd27ef4eb1ae,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:197)"
+2026-02-17T05:03:25.095Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,8fad94c6439e1959d97a215ec6616927,production,,,
+2026-02-17T05:03:31.751Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,8026664b4c79f830c4772d70c2b58d7c,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:185)"
+2026-02-17T05:03:17.215Z,payment-service,INFO,Order created,com.company.paymentservice.Service,86dd2941205733ebf27996ab8cd2d2f7,production,,,
+2026-02-17T05:03:27.557Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,edd89bf53bd6e8a1bafc4839d5850a30,production,,,
+2026-02-17T05:03:28.796Z,payment-service,INFO,User session started,com.company.paymentservice.Service,ebbcc5c1eaae87c8e8e596e6ff3b97a3,production,,,
+2026-02-17T05:04:12.247Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,0194939d58ce55bd1595c9e30a6aeb51,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:120)"
+2026-02-17T05:03:32.351Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,72f1f31b97aa947b8a682183ca7707dc,production,,,
+2026-02-17T05:03:50.571Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,803d022ce76b11b13cec20dcda18c573,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:63)"
+2026-02-17T05:03:47.064Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,a3da4ddd73043968127403432c6482a8,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:71)"
+2026-02-17T05:04:28.514Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,4927a867d0fe4cbbacb19f15a3929780,production,,,
+2026-02-17T05:04:23.697Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,c81f9db2330f04d275963be8ee61720d,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:151)"
+2026-02-17T05:04:45.469Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,a4fd2e13712a734f3ffc253dafec6f0d,production,,,
+2026-02-17T05:04:25.475Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,b50115bd0f61972a77b6916a2f2fe72b,production,,,
+2026-02-17T05:04:43.181Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,a93b872e954539ab3c88dcdff67290d3,production,,,
+2026-02-17T05:05:19.085Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,ff4fdfdae20fe65b23c3427c1e77f784,production,,,
+2026-02-17T05:04:50.469Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,6fbbef9c6362cbdea426529c72564fa2,production,,,
+2026-02-17T05:05:05.473Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,f1f0cc1af40b3b3529a5a70d711e17e4,production,,,
+2026-02-17T05:05:32.344Z,payment-service,INFO,Order created,com.company.paymentservice.Service,473e97f54bc97e9e7142b1ef79fb7b3f,production,,,
+2026-02-17T05:04:55.245Z,payment-service,INFO,Order created,com.company.paymentservice.Service,0f2c807f46a1bfcd4cc1aa1788d3d9fc,production,,,
+2026-02-17T05:05:40.673Z,payment-service,INFO,Order created,com.company.paymentservice.Service,c1e3a03e21a9d19115de5fb003936bd4,production,,,
+2026-02-17T05:06:06.047Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,80b93e666c59c2b861419df1bbf50c88,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:114)"
+2026-02-17T05:05:16.422Z,payment-service,INFO,User session started,com.company.paymentservice.Service,0ebde5c02eab779abbb0a2230e4fa246,production,,,
+2026-02-17T05:06:15.518Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,bc1c8a0f4e06be1bc110f1af97bf73ce,production,,,
+2026-02-17T05:06:20.179Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,a73beba98a7f31f3d5cc55c2f2ed6d7e,production,,,
+2026-02-17T05:06:34.927Z,payment-service,FATAL,Connection refused to payment-gateway,com.company.paymentservice.Service,4aea9fa175f91eb13ac031da3b3ce0bf,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:53)"
+2026-02-17T05:06:10.148Z,payment-service,INFO,Order created,com.company.paymentservice.Service,af1389d8c8d144b0eaf6c23cdf933825,production,,,
+2026-02-17T05:06:49.190Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,bc5c56dd23e7478d47a38acc4bf47d05,production,,,
+2026-02-17T05:06:27.373Z,payment-service,INFO,Order created,com.company.paymentservice.Service,ad371ff3c280dd9328e235c33f7f6754,production,,,
+2026-02-17T05:06:20.045Z,payment-service,INFO,Order created,com.company.paymentservice.Service,ea4bf823f2c1e5cc17b70e945efb0a8d,production,,,
+2026-02-17T05:06:13.192Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,998c3fa95f9861d1dfb4077802a0087b,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:88)"
+2026-02-17T05:06:52.793Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,8832667b59637f3e9a2e8b0aa1167284,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:91)"
+2026-02-17T05:06:50.094Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,020d68330c6b7083cd28227b44ecd71a,production,,,
+2026-02-17T05:07:25.212Z,payment-service,INFO,User session started,com.company.paymentservice.Service,0b57837a0eb55a30daf5f719ca7fabef,production,,,
+2026-02-17T05:06:50.584Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,5691cb7ab32a398d03a6b3017dfca727,production,,,
+2026-02-17T05:06:54.876Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,00ae51d6b92942a60acc4c764f81cc57,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:195)"
+2026-02-17T05:07:15.189Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,fdce1aeed5eb4bb642cac8b38ea49365,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:112)"
+2026-02-17T05:07:50.059Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,fddb4e7c0d58272df38e835b67e6b603,production,,,
+2026-02-17T05:07:23.126Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,0f2d3f059107c956ccad0a005c2269cf,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:102)"
+2026-02-17T05:07:46.805Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,903dda926b2ee0c827685e6dc37976c0,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:174)"
+2026-02-17T05:07:55.543Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,86e4ad4f3e616453bb02ee1e28ebba41,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:51)"
+2026-02-17T05:07:34.928Z,payment-service,FATAL,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,81334a51c9a9ecc1f20ba53461502f41,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:65)"
+2026-02-17T05:07:47.411Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,908a702c0907783a202ce65daa115e37,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:87)"
+2026-02-17T05:07:51.351Z,payment-service,INFO,Order created,com.company.paymentservice.Service,36ce0b5abc9f1c18e9df95cfed86f2b8,production,,,
+2026-02-17T05:08:25.451Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,398d5df29650812e0478c1363441d678,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:110)"
+2026-02-17T05:08:34.976Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,a57a2eab9f0b399a57799182b2e8a36a,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:69)"
+2026-02-17T05:08:35.187Z,payment-service,INFO,Order created,com.company.paymentservice.Service,43d0213c3b4bd2027f1cfd6a963b85ca,production,,,
+2026-02-17T05:08:43.929Z,payment-service,INFO,Order created,com.company.paymentservice.Service,dd8b827578a1c188e93e9bdf1d6bf306,production,,,
+2026-02-17T05:09:18.397Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,ea72dd88b82b8b3adff5effaaa4c4153,production,,,
+2026-02-17T05:08:34.579Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,37674a0fb93e06f65e93720e54f40efc,production,,,
+2026-02-17T05:09:17.544Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,aeaab5d40132b70cf0269e2b7d9dc89c,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:86)"
+2026-02-17T05:08:58.319Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,cef9b63ce7bf12e607c3058702de59c6,production,,,
+2026-02-17T05:09:05.125Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,5804e4543711bb5a939329c4c82ba112,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:183)"
+2026-02-17T05:09:16.661Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,dcc78401db38cd7ed6a7f6fc029bfe3a,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:200)"
+2026-02-17T05:09:40.229Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,89f248edf18b36789088d1c5937f7540,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:111)"
+2026-02-17T05:09:44.856Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,c5b6c0d8ba0eeb7eebc9ade706b1aaa2,production,,,
+2026-02-17T05:10:10.140Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,8aad294acda7c205c800eca84e274a11,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:112)"
+2026-02-17T05:10:05.781Z,payment-service,INFO,User session started,com.company.paymentservice.Service,43bad995cd6da5bc1817f4d107da28d0,production,,,
+2026-02-17T05:09:57.423Z,payment-service,INFO,Order created,com.company.paymentservice.Service,4a3615954b3074601363cf18ac119fb1,production,,,
+2026-02-17T05:09:43.188Z,payment-service,FATAL,External service payment-gateway is unavailable,com.company.paymentservice.Service,2018f3d3211578b244684e0d9050c459,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:119)"
+2026-02-17T05:10:14.054Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,92187478caf103682ad26d06e73068f5,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:152)"
+2026-02-17T05:10:27.237Z,payment-service,INFO,User session started,com.company.paymentservice.Service,350d9cd102b863dbd84ee867ea7ce6df,production,,,
+2026-02-17T05:11:00.958Z,payment-service,INFO,Order created,com.company.paymentservice.Service,1d328775376aeb0eb29cbd6c1f95e81c,production,,,
+2026-02-17T05:11:05.597Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,d8408c5ac44ed5e2f2b777ee2cabad60,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:78)"
+2026-02-17T05:10:24.287Z,payment-service,INFO,Order created,com.company.paymentservice.Service,935206840078441d4c2373c6c9b83b7b,production,,,
+2026-02-17T05:10:48.258Z,payment-service,INFO,User session started,com.company.paymentservice.Service,be6b43c4cfb60896daa2dab2bdc5fce7,production,,,
+2026-02-17T05:11:07.700Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,f0a788a89fcffd9fb9229b87e0b5b20f,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:183)"
+2026-02-17T05:10:51.274Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,4ee08bfe3f30a16e8fb00870cc202875,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:169)"
+2026-02-17T05:11:40.639Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,45801c813719cb3bdfe956f80efd6c29,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:158)"
+2026-02-17T05:11:03.205Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,8baebf9f329f35e67f1d702a0150bd53,production,,,
+2026-02-17T05:11:56.547Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,6684deff38589bbcfd10fc2d2c0f6ea7,production,,,
+2026-02-17T05:11:25.026Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,7f4a1e21faecf8f30bf7e846898223db,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:185)"
+2026-02-17T05:11:26.819Z,payment-service,INFO,User session started,com.company.paymentservice.Service,b59d93c07183669ad4b2730180177365,production,,,
+2026-02-17T05:11:36.593Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,c2239d6616d366fadd40cf5347487d14,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:121)"
+2026-02-17T05:12:25.300Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,b3843a2eb1051100751aa3b308ad724d,production,,,
+2026-02-17T05:12:24.646Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,a1ddce180bdd4083bd146f0b6af26a77,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:160)"
+2026-02-17T05:12:27.689Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,a504ac9957c0a2b63344ddbf78840df0,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:194)"
+2026-02-17T05:11:59.007Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,df274f196f67636d6304a05f58f108eb,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:95)"
+2026-02-17T05:12:05.296Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,70cf2d7cffe2d14b43d9e5f88261fb70,production,,,
+2026-02-17T05:12:33.636Z,payment-service,INFO,Order created,com.company.paymentservice.Service,5612ae331a3a9631ea77522d76fbc923,production,,,
+2026-02-17T05:12:19.205Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,73f6037a0d774039dfe327f64a320b48,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:127)"
+2026-02-17T05:12:30.565Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,590522ff3bef6ad425f3bc508bb9a657,production,,,
+2026-02-17T05:13:01.487Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,82b76d94ab6bef77e277f69ed95791d7,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:170)"
+2026-02-17T05:12:41.117Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,e2ec7c40fdbe2c5d0e582018885ef5c0,production,,,
+2026-02-17T05:13:10.528Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,778d5c8248bbdfd146f44a1560aea4de,production,,,
+2026-02-17T05:13:24.968Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,bde56c6b7437b4f81c6c20e00858b41b,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:162)"
+2026-02-17T05:13:48.230Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,0ea10bb73a35ef667595907245bcaf92,production,,,
+2026-02-17T05:13:16.972Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,30879d6343bdb55f07a7ea2f5028f747,production,,,
+2026-02-17T05:13:15.794Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,4fe869f4705ac4b6a052678642c0c7b6,production,,,
+2026-02-17T05:13:34.460Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,935dfd0302f2f211ecbdd7b50dc5509d,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:139)"
+2026-02-17T05:13:35.626Z,payment-service,INFO,Order created,com.company.paymentservice.Service,62291c9465c717c7db9f116a6275a4bf,production,,,
+2026-02-17T05:13:32.588Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,3768ef06f15adc51a9aabdb38922a257,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:67)"
+2026-02-17T05:14:09.037Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,a2832ec87a7fdfda35d2eaacd7bd86f1,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:153)"
+2026-02-17T05:14:30.142Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,f77b63e83a7c701b5bfe19f7eb1b460b,production,,,
+2026-02-17T05:14:18.111Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,bc2e92888fe28b64d0218598288460c2,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:159)"
+2026-02-17T05:14:31.577Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,dc1ed58bb2717c8ff3ba06151a4825ef,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:97)"
+2026-02-17T05:14:33.695Z,payment-service,INFO,User session started,com.company.paymentservice.Service,eb984c5b0bf84590928dc287115a6d87,production,,,
+2026-02-17T05:14:25.223Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,f993ba583d0f246ee7a073ff4c1640c9,production,,,
+2026-02-17T05:15:19.226Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,4b11529c15f10304867f72953c2a1205,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:120)"
+2026-02-17T05:14:57.471Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,dec45504484f6874e1fef375ddbea736,production,,,
+2026-02-17T05:14:59.938Z,payment-service,INFO,User session started,com.company.paymentservice.Service,10f64c9d7e85810bef21fdd425647a05,production,,,
+2026-02-17T05:15:29.051Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,2743ff4f1934d4c8f5b89f62f1e2d7a7,production,,,
+2026-02-17T05:14:54.105Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,96dd86825ee14c6abd7b2f3aa5f9fe29,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:77)"
+2026-02-17T05:15:38.867Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,082a110174d48edae941cd69e2542711,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:109)"
+2026-02-17T05:15:44.146Z,payment-service,INFO,User session started,com.company.paymentservice.Service,dde71711638b75d4d042032471250528,production,,,
+2026-02-17T05:15:52.140Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,e757d42859bfa3c817948cabf4f19676,production,,,
+2026-02-17T05:15:37.390Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,f4430e5dcf1e9e78666c7846d79dc902,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:185)"
+2026-02-17T05:15:49.672Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,0ee398f1afc40ac67938efacb0def68e,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:185)"
+2026-02-17T05:16:20.402Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,eab3f9a9ba82c85b72d18e7a0fd9cb8a,production,,,
+2026-02-17T05:15:52.773Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,a06cae42b60f4062e1d5dff240e47ed1,production,,,
+2026-02-17T05:15:59.701Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,1edee3a835c3de725ec1dc939c48ccc9,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:196)"
+2026-02-17T05:16:26.986Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,448c02b3e4e5546b039c6a38958eed43,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:55)"
+2026-02-17T05:17:01.882Z,payment-service,FATAL,Connection refused to payment-gateway,com.company.paymentservice.Service,551241ea11dc6023bfb453510518a1d6,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:115)"
+2026-02-17T05:16:55.492Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,367f7f5ba7a5bd176f2f9ce684189a3f,production,,,
+2026-02-17T05:17:14.242Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,628a0e90cd861d1085fe0add54deee74,production,,,
+2026-02-17T05:16:52.692Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,98d2e56224ba935347cf58a2c6f6694a,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:67)"
+2026-02-17T05:17:13.217Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,1858b28b007ba4894fe0f67e04fc43ba,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:124)"
+2026-02-17T05:16:43.131Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,63fe30cbb7f9d9cc2fec5a1b99a70e2b,production,,,
+2026-02-17T05:17:24.632Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,7e762db3cce4401210fb5a61b690cbc3,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:140)"
+2026-02-17T05:17:37.921Z,payment-service,INFO,Order created,com.company.paymentservice.Service,7f2a52668b7d23b87594c76fa820b1f5,production,,,
+2026-02-17T05:17:13.937Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,2bdc7760809dc2e976d8e41ab3936e59,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:154)"
+2026-02-17T05:17:43.899Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,059100f7b518f65ec89e7567ea8fcefc,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:169)"
+2026-02-17T05:18:04.736Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,4709ea8274fba1e90181a2c32f2fe656,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:131)"
+2026-02-17T05:17:50.581Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,0f08cfc02e11baf6af08387455b85bbb,production,,,
+2026-02-17T05:18:14.994Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,82c996e869215eab701b9c3ae04bb044,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:95)"
+2026-02-17T05:18:20.811Z,payment-service,INFO,User session started,com.company.paymentservice.Service,d2c79033cdc56fc764efe62742efd9bf,production,,,
+2026-02-17T05:18:43.063Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,aa5e5134a4da2ff13b488922079ecbec,production,,,
+2026-02-17T05:17:59.155Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,2ed51bd1330cdd56353be955f79ef73c,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:192)"
+2026-02-17T05:18:31.578Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,a7e66bd2b45fac443f838c57abb71b70,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:65)"
+2026-02-17T05:19:00.935Z,payment-service,INFO,User session started,com.company.paymentservice.Service,8a08337913fbc6dc50e5a7c71c7c37f3,production,,,
+2026-02-17T05:18:57.190Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,f45062b74459b9ba7104fa82e9c44d88,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:183)"
+2026-02-17T05:19:18.466Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,e140dabb03fe553b829b3e34f5769b80,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:181)"
+2026-02-17T05:19:23.361Z,payment-service,INFO,Order created,com.company.paymentservice.Service,6a3f98a629bbe5be54621b46bfac667f,production,,,
+2026-02-17T05:19:06.717Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,ac6347a62fde222da96e521d4ab3269c,production,,,
+2026-02-17T05:19:19.304Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,3a5c81292110205ed9d7af9bdb3b2b45,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:195)"
+2026-02-17T05:19:32.191Z,payment-service,FATAL,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,685b9f5d0f3505ddd8e7762ebecf57ee,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:102)"
+2026-02-17T05:19:54.816Z,payment-service,INFO,User session started,com.company.paymentservice.Service,4ed94879419359ce89b8744cfe5d4061,production,,,
+2026-02-17T05:19:34.455Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,79d43cd151b1b4b46efa0f18e39c6d4f,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:164)"
+2026-02-17T05:19:28.938Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,6fc85f1d7575f02c0246958f2621eccd,production,,,
+2026-02-17T05:19:52.422Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,ad96eb4f49931a65b966e08d01e486ee,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:54)"
+2026-02-17T05:19:51.537Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,8da70f017f454df53ab9797b3708b864,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:166)"
+2026-02-17T05:20:16.629Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,13b2cdd28e8d0551a9baf6f7ad0f9429,production,,,
+2026-02-17T05:19:52.439Z,payment-service,INFO,User session started,com.company.paymentservice.Service,1f3798c72751d98936954c2f99a79438,production,,,
+2026-02-17T05:20:27.088Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,07ffa62728e5bcb422763e34d387ff0b,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:59)"
+2026-02-17T05:20:20.429Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,ad09963a6dbbc5f4ca1be916bad9501f,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:162)"
+2026-02-17T05:20:52.622Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,beb31d2d9d41eea9b116916bf7d9845b,production,,,
+2026-02-17T05:20:35.132Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,23aa854586450d459909228b60d0d206,production,,,
+2026-02-17T05:20:54.251Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,89d46f7f9dd5e7a5032e87913cf85abc,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:131)"
+2026-02-17T05:20:57.681Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,f3f71e22860c96f31d494d03757c357f,production,,,
+2026-02-17T05:21:26.432Z,payment-service,INFO,User session started,com.company.paymentservice.Service,df2987155564b1a7c737bf408a04109d,production,,,
+2026-02-17T05:20:55.517Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,72d3fd4fa80bfb49bfdff88f6d63e1ad,production,,,
+2026-02-17T05:21:29.026Z,payment-service,INFO,User session started,com.company.paymentservice.Service,a892e6de0ebf944858d77eff1a59d6b1,production,,,
+2026-02-17T05:21:28.765Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,3c946b1b48a51321412584d8ec4f180e,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:172)"
+2026-02-17T05:21:44.688Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,b010ceedc4611aca133c5bea5f513f01,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:127)"
+2026-02-17T05:21:29.340Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,8fb4a0cdd11202f07a95d5bbae717bf4,production,,,
+2026-02-17T05:21:55.112Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,7c9cc148229d784c5dc6775979259e97,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:156)"
+2026-02-17T05:22:10.871Z,payment-service,INFO,User session started,com.company.paymentservice.Service,f0586d519858f95c331317b83693dc79,production,,,
+2026-02-17T05:21:52.905Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,2a2987a28d6d25a6337e43ca35dd799b,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:113)"
+2026-02-17T05:22:16.899Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,15fabafa4b565832246821f1a122d00a,production,,,
+2026-02-17T05:22:16.408Z,payment-service,INFO,User session started,com.company.paymentservice.Service,26e9bab9fd76777de35b6cf47dbd8dfa,production,,,
+2026-02-17T05:22:42.700Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,ddcb0587766fb7aeadbb5cd762baba40,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:69)"
+2026-02-17T05:22:37.458Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,39c5870d9c3499b29e924b83c70431ca,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:102)"
+2026-02-17T05:22:36.720Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,bca416217df67bcf4bb4c8a0a1fe928d,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:109)"
+2026-02-17T05:22:49.099Z,payment-service,INFO,User session started,com.company.paymentservice.Service,d63f64b95bc99ca7ac86cd9dc3107bc4,production,,,
+2026-02-17T05:22:51.984Z,payment-service,INFO,User session started,com.company.paymentservice.Service,ed46d57899b903b6c82a89b02eb6a199,production,,,
+2026-02-17T05:22:43.902Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,31e0348a09806e3a9346cfacf3714f56,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:103)"
+2026-02-17T05:23:08.647Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,303128fea4e0107970c2750e8db97ccc,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:106)"
+2026-02-17T05:22:42.910Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,4765c34350daf38eb3f302550d355d44,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:53)"
+2026-02-17T05:23:11.327Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,a1a36823fa8fbd668d448fe162ffa8b9,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:189)"
+2026-02-17T05:23:49.572Z,payment-service,INFO,User session started,com.company.paymentservice.Service,dddab0cc5770dce8c42fb1a0a22240ca,production,,,
+2026-02-17T05:23:13.675Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,1ad2d142a1a1a5db19b2a24527e5a4c8,production,,,
+2026-02-17T05:23:11.568Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,fa076ee98bd33bedfce7d42a0a6f7aab,production,,,
+2026-02-17T05:24:07.732Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,4b77383476e024c36d8e991fdb8d24b0,production,,,
+2026-02-17T05:24:02.348Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,ddbb1adf300bb6271906a35c71d1d8a2,production,,,
+2026-02-17T05:24:18.664Z,payment-service,FATAL,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,19c8a1a43d15e0e95fc1f5746a421380,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:154)"
+2026-02-17T05:23:38.068Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,6972f66a19bee0b4a14d829e7ecc58ec,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:102)"
+2026-02-17T05:24:25.441Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,02ab61d3ccb757fd19dedaa6e2df95f6,production,,,
+2026-02-17T05:24:04.620Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,f6b7c873dc667e112900f1ba97c64d97,production,,,
+2026-02-17T05:24:05.306Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,ab32176fcbbcd5bc654a20e7206c3c2a,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:68)"
+2026-02-17T05:24:52.888Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,396f7bd3a03a2be27908e36a6cf4290c,production,,,
+2026-02-17T05:24:30.208Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,5c334c73e42560027f4adea7c685971c,production,,,
+2026-02-17T05:24:32.993Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,0d5bf08c72c7c76132641ed66573088f,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:92)"
+2026-02-17T05:24:34.216Z,payment-service,INFO,User session started,com.company.paymentservice.Service,6867e65492353035d88105385a72cd2a,production,,,
+2026-02-17T05:24:44.886Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,5d74106450ed95a7a299296f60b28738,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:192)"
+2026-02-17T05:24:50.073Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,f6f4cff4d51e4eb46560812d0ac16acf,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:157)"
+2026-02-17T05:25:06.842Z,payment-service,FATAL,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,a51fcbf366ad2a96463a2704c200d758,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:74)"
+2026-02-17T05:25:52.360Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,69d2e0ce45f4afc1e7bd1cdf352110f9,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:110)"
+2026-02-17T05:25:30.634Z,payment-service,INFO,User session started,com.company.paymentservice.Service,b138601611aeb64b067d1ca98f1f4ff1,production,,,
+2026-02-17T05:25:30.913Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,28e21922697e596d3c058944d626b28c,production,,,
+2026-02-17T05:25:50.712Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,2902c16ad5e3c878e424c4911d89a4f8,production,,,
+2026-02-17T05:25:45.306Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,3ae5417b61fb926e34d7fd00265fc95d,production,,,
+2026-02-17T05:26:16.128Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,6dbf6bf88345ab9c1e0a42abdcd143b4,production,,,
+2026-02-17T05:25:42.425Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,b289d37531d40c4129465d68771a3256,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:146)"
+2026-02-17T05:26:23.544Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,09cb070cba1e24f58b380f2c7cc857b1,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:157)"
+2026-02-17T05:26:41.488Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,f327efb452d029e0bd611256636d94be,production,,,
+2026-02-17T05:26:05.418Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,34913ce61b8103ca97712e1d5566ccfc,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:54)"
+2026-02-17T05:26:13.257Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,4f86e5ca529abc1d716519108c0983a1,production,,,
+2026-02-17T05:27:11.279Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,099520f62fbbef039ae962b4e97c7b59,production,,,
+2026-02-17T05:27:10.652Z,payment-service,FATAL,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,2f8ea3acb4d59a06e858f3598bbbb205,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:105)"
+2026-02-17T05:26:38.751Z,payment-service,INFO,Order created,com.company.paymentservice.Service,755af9412abbb7f31a0c2a366b3119b7,production,,,
+2026-02-17T05:27:17.115Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,84fe47c92c40842f86894574b11a16f3,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:86)"
+2026-02-17T05:26:45.841Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,d26873505da42272a7f53d9917eabda3,production,,,
+2026-02-17T05:27:43.065Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,4630ab4c9bbcfaab5c198f10baae4669,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:69)"
+2026-02-17T05:27:18.554Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,6dbeaf753a19e60c9f78ef2f62795faa,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:105)"
+2026-02-17T05:27:41.203Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,27fdb533f6ac8679f1e697cd3e6bae55,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:92)"
+2026-02-17T05:28:02.297Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,b9e35be1c77cf603a35b7d63b38dfc05,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:87)"
+2026-02-17T05:27:24.907Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,35cc77b7b23960db2441286f28d8223d,production,,,
+2026-02-17T05:28:03.217Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,b06ff02d36593da6c328c8615b4c61c4,production,,,
+2026-02-17T05:28:24.696Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,6c9fcf05b02fea8d7f9954090710331b,production,,,
+2026-02-17T05:27:42.750Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,2f4bbb4290914f0f367e81ee5f1dee78,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:120)"
+2026-02-17T05:28:09.817Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,4977795ebd3ea53ab2061131f385a774,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:84)"
+2026-02-17T05:28:48.875Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,bca26793341047a282722ba7f53e0c98,production,,,
+2026-02-17T05:28:09.338Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,6e18b3af2611d1042963f0f10f77e70b,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:81)"
+2026-02-17T05:28:38.984Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,13558cd019fd8bcb6dcc7afdb26a8476,production,,,
+2026-02-17T05:28:30.755Z,payment-service,INFO,Order created,com.company.paymentservice.Service,52c401f9a978c373b92b4ec48a08f1b0,production,,,
+2026-02-17T05:29:07.458Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,b3dccf894ceaa8d82f06fd5f2e28a3c2,production,,,
+2026-02-17T05:29:10.239Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,c8dc622ea3a6b2c59eb6c108fc89e0c0,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:189)"
+2026-02-17T05:28:53.475Z,payment-service,INFO,Order created,com.company.paymentservice.Service,26e48470030c71d12f4b673459bb8af2,production,,,
+2026-02-17T05:29:15.937Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,826be4ed3177370d5f941baa61398805,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:101)"
+2026-02-17T05:29:07.697Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,b82fff0b2159092024376ca388c8522d,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:144)"
+2026-02-17T05:29:22.041Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,89afb789582e0c8fc3f07e19bc55e02f,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:170)"
+2026-02-17T05:29:19.456Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,9fa5c0ad0171dee66086cc232de234c1,production,,,
+2026-02-17T05:30:01.213Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,f1f4fe51d4ffc7988291c952dee87070,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:140)"
+2026-02-17T05:30:00.431Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,ce56c9c2a4ce3255f78a527899357ef6,production,,,
+2026-02-17T05:29:39.784Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,fece428e62dea2045d02f359831d3320,production,,,
+2026-02-17T05:29:54.380Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,77606610e567ea538166b5e2814b6de8,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:146)"
+2026-02-17T05:29:55.329Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,893b91fbfda1c3da15a844af85f77e9b,production,,,
+2026-02-17T05:30:33.049Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,b860913f158e55d04bb90370b8ee6667,production,,,
+2026-02-17T05:30:27.813Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,b5323a4e23702fce5e686cb5f9066457,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:137)"
+2026-02-17T05:30:13.086Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,6bbdcd2727cd4e5e9e87eaeffd5a581c,production,,,
+2026-02-17T05:30:29.552Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,9ec42dd1a3998075e5e88d8c2d1a8528,production,,,
+2026-02-17T05:30:23.205Z,payment-service,INFO,Order created,com.company.paymentservice.Service,5dbb59e815f858f78162dabab500b20b,production,,,
+2026-02-17T05:30:30.500Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,5ae76ae23c11635f18c29e2130ae1b83,production,,,
+2026-02-17T05:31:03.874Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,bbd1d3ff652df63e9a4ed42e6e8f32c5,production,,,
+2026-02-17T05:31:18.197Z,payment-service,FATAL,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,57a5b9006748fdb24c7f28b043e1ee11,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:61)"
+2026-02-17T05:31:23.509Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,7c37c95a04b3f07b54ef8677dd3b0b45,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:64)"
+2026-02-17T05:31:01.229Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,c9035dcfb99267ea6d0d12e34b734b06,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:104)"
+2026-02-17T05:31:53.974Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,8ab2b53707c1181dc9cabe58104e94e7,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:140)"
+2026-02-17T05:31:14.588Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,7988e8bc1bbfb9d5ccdcae7a3e894979,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:54)"
+2026-02-17T05:32:12.259Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,8bcffe2442f3d604fb03e3ce2acf328c,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:109)"
+2026-02-17T05:31:28.562Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,aece278a42c99c52e38a5397963ac700,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:145)"
+2026-02-17T05:32:01.798Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,881e0150de2fa632243654443646399d,production,,,
+2026-02-17T05:31:52.403Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,75c15636c5e345e637aa2fa63e74337e,production,,,
+2026-02-17T05:32:13.655Z,payment-service,FATAL,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,516c9992a48261f46e525e499d7833ac,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:151)"
+2026-02-17T05:32:46.404Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,5678f246e95fad688f091f6bec3249c9,production,,,
+2026-02-17T05:32:16.490Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,9ff4e775a930e354fefce92a6dcd66a0,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:128)"
+2026-02-17T05:33:01.890Z,payment-service,INFO,Order created,com.company.paymentservice.Service,2358102030d4928dcde402f5cec20598,production,,,
+2026-02-17T05:33:05.067Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,5528fd39cac87479f09b0da5b1835274,production,,,
+2026-02-17T05:32:33.838Z,payment-service,INFO,Order created,com.company.paymentservice.Service,ef7cfe6ff989e1c99d1b646f850f4f00,production,,,
+2026-02-17T05:32:49.299Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,2080f4b3d31fb6589c205845ae741cd3,production,,,
+2026-02-17T05:33:13.945Z,payment-service,INFO,User session started,com.company.paymentservice.Service,c083de74225cc379c751164963ca5ce9,production,,,
+2026-02-17T05:33:02.324Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,e8d8ab9c46e6646247f3c3ac1ba4912c,production,,,
+2026-02-17T05:33:06.221Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,06b6d8f935a503854595dd0677ea71ae,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:94)"
+2026-02-17T05:33:25.361Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,44b535b65c54110a69c8e9855a1db641,production,,,
+2026-02-17T05:33:55.860Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,ba90ab3ad02500d16c93a971a27c0767,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:69)"
+2026-02-17T05:34:00.208Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,dc2b59377d438f0ac8a3b7ce4475301f,production,,,
+2026-02-17T05:33:50.723Z,payment-service,INFO,User session started,com.company.paymentservice.Service,cad893f84511bd0cb5f7c7ee1daaf9fa,production,,,
+2026-02-17T05:34:02.917Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,4b753af06238b17d8b924360eba903af,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:60)"
+2026-02-17T05:34:19.898Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,b93ba0ceeb10019d5373e9fb2c70d0b6,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:169)"
+2026-02-17T05:33:50.288Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,b01809f1699979a08c355466f7e2b62f,production,,,
+2026-02-17T05:34:21.731Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,caf095eab4eebce4a3042c84736ddb77,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:182)"
+2026-02-17T05:34:24.479Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,f854b0f2d1ccc9258fc964e6b005f588,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:178)"
+2026-02-17T05:34:06.182Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,6b585d311dfb7023bca4a91bed4ae69c,production,,,
+2026-02-17T05:34:37.326Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,26662fb9c1ab0167a2ab2fdf875c5797,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:100)"
+2026-02-17T05:34:36.367Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,f192b3c06b53e686e85d7cdb859a1434,production,,,
+2026-02-17T05:35:03.562Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,dc2ea24756baa2a7f3fc1374f442eab2,production,,,
+2026-02-17T05:35:25.173Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,8b2aa0697666e3d9285e6c7bb9c65081,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:142)"
+2026-02-17T05:35:05.809Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,f824ff9d997363f6400e0e11e224b12f,production,,,
+2026-02-17T05:35:14.997Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,376122227f5c96a63fcfc7c1a6a4ac4b,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:163)"
+2026-02-17T05:35:05.734Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,201e6b647387d965b1feeabdd140e2c3,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:73)"
+2026-02-17T05:35:39.938Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,0f1b3c7c964df377661daadefa319308,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:170)"
+2026-02-17T05:36:02.680Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,a69371a114a15f28383eac94313895eb,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:102)"
+2026-02-17T05:35:59.460Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,8f0d1f5c6c18d2669714b49d5248bb47,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:193)"
+2026-02-17T05:35:31.096Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,f370826df0da70744a33f14ab941ff52,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:178)"
+2026-02-17T05:36:27.406Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,a003366c7fb87f5edd951c8a7f9f84d8,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:191)"
+2026-02-17T05:36:19.381Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,a4b23b6f787ebc490d533de670d7edec,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:176)"
+2026-02-17T05:35:56.104Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,f66fa9220d2049ad36efac48572b6dbe,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:180)"
+2026-02-17T05:36:50.365Z,payment-service,INFO,Order created,com.company.paymentservice.Service,10159496eec5e47e95a552fd4d8475e5,production,,,
+2026-02-17T05:36:35.694Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,ce53bf8e021090a12a8fe3f590f781d0,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:150)"
+2026-02-17T05:36:54.946Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,0c727c1e70db81341e37bc71593563d2,production,,,
+2026-02-17T05:36:18.928Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,29a9798d07334fe974728d1b01a2e148,production,,,
+2026-02-17T05:37:15.789Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,30d94e76e952ac5ee2a22dd4cbf8cac4,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:119)"
+2026-02-17T05:36:45.603Z,payment-service,INFO,Order created,com.company.paymentservice.Service,123a8589a689d7499332544b30d9ff2e,production,,,
+2026-02-17T05:36:50.707Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,4fd2890aefdbdd43f223ad2121c11236,production,,,
+2026-02-17T05:37:34.055Z,payment-service,FATAL,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,8c3dd5e191d5f707c376a53d62c0f75a,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:65)"
+2026-02-17T05:36:53.600Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,1f595c39ba421c25407bad3848dfcb11,production,,,
+2026-02-17T05:37:32.887Z,payment-service,INFO,Order created,com.company.paymentservice.Service,256e21f40f55cf6fd755d02e79ae6306,production,,,
+2026-02-17T05:37:09.966Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,d813c54db6407bdee348007a94319f13,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:156)"
+2026-02-17T05:37:27.677Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,d6616fdfe5c70c47450cc3766c1e274c,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:89)"
+2026-02-17T05:37:36.643Z,payment-service,FATAL,Connection refused to payment-gateway,com.company.paymentservice.Service,eb3038714805394a0de0a390c1c8333a,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:190)"
+2026-02-17T05:37:36.975Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,a176de2a57b87d1ae7212ac8698458bf,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:200)"
+2026-02-17T05:38:30.126Z,payment-service,FATAL,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,60c23742af522074c1ee1a7bf93abd54,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:86)"
+2026-02-17T05:38:06.108Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,49471aadc165c6efea8a802e328b93a6,production,,,
+2026-02-17T05:37:55.422Z,payment-service,INFO,User session started,com.company.paymentservice.Service,427bf0a889ba49be8468d39add1d357e,production,,,
+2026-02-17T05:38:22.027Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,8cc138db05ba558e797361598c3f4dcb,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:179)"
+2026-02-17T05:38:27.595Z,payment-service,INFO,User session started,com.company.paymentservice.Service,8b392cc21a22cee2dbe48bdafac461a1,production,,,
+2026-02-17T05:38:58.730Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,19e782f9ce0f1ed8529168a3f943d1a9,production,,,
+2026-02-17T05:38:31.575Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,a8c3dbea8c5f91e4b40acfaceb04bde0,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:101)"
+2026-02-17T05:38:54.161Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,2e522ec0df79f895c5abfbe697c121a7,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:196)"
+2026-02-17T05:39:14.110Z,payment-service,INFO,Order created,com.company.paymentservice.Service,9d910f464d37ad285b1cc525e7fc45f7,production,,,
+2026-02-17T05:39:24.470Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,3a0235b7eed85caa591ff0af9ef21642,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:166)"
+2026-02-17T05:38:47.943Z,payment-service,INFO,Order created,com.company.paymentservice.Service,8cd5b00aa4bdca7bb01b64a36b722b20,production,,,
+2026-02-17T05:39:25.117Z,payment-service,INFO,User session started,com.company.paymentservice.Service,2e7fb9dc20b175e31e2039bfb766f3e7,production,,,
+2026-02-17T05:39:26.334Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,5aa60b2e2b056031f3215b8b29832ce0,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:178)"
+2026-02-17T05:39:13.418Z,payment-service,FATAL,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,05822f43cf05843744f1f68886d45c3a,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:88)"
+2026-02-17T05:40:10.932Z,payment-service,INFO,User session started,com.company.paymentservice.Service,4ef88a8f0ed04b789c6d3d314599a8e8,production,,,
+2026-02-17T05:40:13.981Z,payment-service,FATAL,Connection refused to payment-gateway,com.company.paymentservice.Service,fe7bbfc04d2f4dea6e402f15e33847a9,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:117)"
+2026-02-17T05:40:24.153Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,ad532007c2829237775331d7de4b5d44,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:92)"
+2026-02-17T05:40:23.779Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,cf85c5b06f042b0f00a18223a1d0f1ea,production,,,
+2026-02-17T05:39:51.803Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,d6086c9a1a24524cfe7cde979acc2382,production,,,
+2026-02-17T05:40:19.867Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,09d3d6759053ffd9eee6026e4f919d54,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:189)"
+2026-02-17T05:40:17.338Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,e12fcf421038be4ab79d33d6b6c7b38f,production,,,
+2026-02-17T05:40:09.506Z,payment-service,INFO,Order created,com.company.paymentservice.Service,556b6e68ad8f4834b535c7ecb2d236d0,production,,,
+2026-02-17T05:40:39.165Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,6100596feaef5b11d5cd59273a78b811,production,,,
+2026-02-17T05:40:35.035Z,payment-service,INFO,Order created,com.company.paymentservice.Service,44540e36c42c63df40d01353c964587a,production,,,
+2026-02-17T05:40:48.968Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,92777d9780d0057f9e06faa7f7afe044,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:100)"
+2026-02-17T05:41:19.188Z,payment-service,INFO,User session started,com.company.paymentservice.Service,368fec1942b8a3095423a1769c3e17bc,production,,,
+2026-02-17T05:40:40.037Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,8a0e43bb7959f246b56ec637e79b1609,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:135)"
+2026-02-17T05:41:07.565Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,2967f65ad92ec04fc122907c92c3f79a,production,,,
+2026-02-17T05:40:54.379Z,payment-service,INFO,Order created,com.company.paymentservice.Service,88d4ec1da6341fec151e8ea08dd1bb1d,production,,,
+2026-02-17T05:41:24.068Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,2daeebba7e54e2537725195e11ab643f,production,,,
+2026-02-17T05:41:47.101Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,16c0506ed6b12f031dec36dcf435659f,production,,,
+2026-02-17T05:41:40.559Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,9e9efc4a9175eade0a613c48251af5ac,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:188)"
+2026-02-17T05:41:52.605Z,payment-service,INFO,User session started,com.company.paymentservice.Service,3bcb2d79dd60fef603b9fb5302a845bc,production,,,
+2026-02-17T05:42:00.113Z,payment-service,INFO,Order created,com.company.paymentservice.Service,d9fcd257d2043614df3c594c8ad82838,production,,,
+2026-02-17T05:42:27.264Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,35705ec1a682986178f7374d3146105c,production,,,
+2026-02-17T05:42:39.499Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,bef548b2ebb340c74897c32c6e802c07,production,,,
+2026-02-17T05:42:34.985Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,761e5635d648c11b5bae33446ef01638,production,,,
+2026-02-17T05:42:20.080Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,b3b76a5bdf7e446d12a64a87d0265fe4,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:184)"
+2026-02-17T05:42:07.766Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,47e669d44641fbc069fcc48fe7cc5c7d,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:180)"
+2026-02-17T05:42:29.471Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,3eb8c6726ff30d35c4aced5081961233,production,,,
+2026-02-17T05:43:07.067Z,payment-service,INFO,Order created,com.company.paymentservice.Service,622f7084c027a3a33b7ee5f201d8c761,production,,,
+2026-02-17T05:42:28.968Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,03309a373eaa7ba34ec2ad75b4b4cd95,production,,,
+2026-02-17T05:42:54.062Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,c78a335d312214bd85b65f54f964ff22,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:176)"
+2026-02-17T05:43:31.685Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,9a1eeaeb016c7a239dff68889eb1f08c,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:133)"
+2026-02-17T05:43:34.782Z,payment-service,INFO,User session started,com.company.paymentservice.Service,a3ffee2d2d2930d33d218e90eea3c464,production,,,
+2026-02-17T05:43:12.589Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,9f51b986135187a1288d792b1addac49,production,,,
+2026-02-17T05:43:56.341Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,300379ed615dca24e20dcab06a73c7bc,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:95)"
+2026-02-17T05:44:03.500Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,4fead78f3a590f849f8d3b454bfc20fc,production,,,
+2026-02-17T05:43:54.137Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,6a70976f66aa85e8a65be1c3a702a6fa,production,,,
+2026-02-17T05:44:11.998Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,ef24d3c2343fa1d58fab638fd716243c,production,,,
+2026-02-17T05:44:15.349Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,6ee8fd7384a30902f3ff7b76317d0add,production,,,
+2026-02-17T05:43:50.102Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,600cd915b2c08d86e971314cb767e102,production,,,
+2026-02-17T05:44:39.267Z,payment-service,INFO,User session started,com.company.paymentservice.Service,6e5a70d8cbce6be3c69ba4bf773f9d17,production,,,
+2026-02-17T05:44:20.874Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,f1bc3b310e60fe4d55bcf732573cbf1b,production,,,
+2026-02-17T05:44:33.045Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,46b0b6306c300985be273fcfcb7a52a9,production,,,
+2026-02-17T05:44:27.741Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,1100b6719703acb7544f41f2ba726e6b,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:52)"
+2026-02-17T05:44:16.703Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,db963db008a6def1e08723bc4d992c94,production,,,
+2026-02-17T05:45:17.372Z,payment-service,INFO,User session started,com.company.paymentservice.Service,3f2cd88d9d4bec45646ce584c99ad9eb,production,,,
+2026-02-17T05:45:26.906Z,payment-service,FATAL,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,181180c8ad44f2aa42766f3d25f0b71f,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:169)"
+2026-02-17T05:45:14.524Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,8e4d540b21ead470525d507576845343,production,,,
+2026-02-17T05:45:39.031Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,8d54529ad798d2c2ed2f34a9c09c3d89,production,,,
+2026-02-17T05:45:06.182Z,payment-service,INFO,Order created,com.company.paymentservice.Service,79989d1d29d0c83e891237e4f8e774a6,production,,,
+2026-02-17T05:44:59.958Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,744a2849ca8fac20c9abd4f624709bb8,production,,,
+2026-02-17T05:45:10.077Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,4bf71f66be3a56ee832de2af52518648,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:135)"
+2026-02-17T05:45:16.071Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,c8eb16388c922d142b55cea992690544,production,,,
+2026-02-17T05:45:54.586Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,aea115635c8bb0b9f206016931650e64,production,,,
+2026-02-17T05:46:11.167Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,c3a2bd4f35e3e90e966a79f81b45df59,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:78)"
+2026-02-17T05:46:24.640Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,61078fe18f8e6dc15d1b8b69533266bc,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:156)"
+2026-02-17T05:46:32.286Z,payment-service,FATAL,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,c4239370f429441ed4c3535393630a96,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:88)"
+2026-02-17T05:46:44.798Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,406a248a181e6fce3e6e2ac9be1fecb5,production,,,
+2026-02-17T05:46:34.990Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,4b31ad7468810e35ec18cd2a6a8376f2,production,,,
+2026-02-17T05:46:41.820Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,59d3dcdb28a3c0eed178ff50cd51ec0c,production,,,
+2026-02-17T05:46:27.524Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,5142cab5233ada3f3c65cc6103723465,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:72)"
+2026-02-17T05:47:06.950Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,10e4cd5b2534502956aabcf5f16dc4b5,production,,,
+2026-02-17T05:47:03.535Z,payment-service,INFO,Order created,com.company.paymentservice.Service,5fa560da78b7dffa11e8904fec8af7a5,production,,,
+2026-02-17T05:46:50.391Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,1d4dc0897bb26ae24388a4c196d7e798,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:146)"
+2026-02-17T05:47:23.877Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,51a747493d75291246bec988544f7946,production,,,
+2026-02-17T05:47:38.828Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,8bce8cefc3bc0e4b83e6fbd9d3a5beb2,production,,,
+2026-02-17T05:47:37.249Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,b11fd26c9f62538638bb171c9bcd534b,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:114)"
+2026-02-17T05:47:26.875Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,4b0ff6de5eafa2844b88488831ebc99f,production,,,
+2026-02-17T05:47:39.844Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,878a702f451a7a54748e1cfe45cc35c7,production,,,
+2026-02-17T05:47:25.133Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,c95aa444955a121ebda327f5c3039018,production,,,
+2026-02-17T05:48:06.308Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,b4bf11dccaf5eb38e1006837e4330d0d,production,,,
+2026-02-17T05:48:24.701Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,9f8777f0e3d040c13f5d63307276ee28,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:85)"
+2026-02-17T05:48:21.102Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,2eed9b4885e96c047493719951027092,production,,,
+2026-02-17T05:48:06.974Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,abadeb87a7a116ac8214cc4d7dc3e9fd,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:191)"
+2026-02-17T05:48:12.936Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,b78fba864b674645618447ac40d92b29,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:109)"
+2026-02-17T05:48:41.926Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,fc75227f449a7038479c7ce5cd5ca6fc,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:125)"
+2026-02-17T05:48:38.461Z,payment-service,INFO,User session started,com.company.paymentservice.Service,734d12811b502c6c16a3aedb86277958,production,,,
+2026-02-17T05:48:41.386Z,payment-service,INFO,Request processed successfully,com.company.paymentservice.Service,0565da6882fa6653d6f56c71e7450f03,production,,,
+2026-02-17T05:49:15.814Z,payment-service,ERROR,Payment was declined by payment gateway: insufficient funds,com.company.paymentservice.Service,ea272f0d0a4671404e79dd5f67d2f972,production,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds,"PaymentDeclinedException: Payment was declined by payment gateway: insufficient funds
+	at com.company.service.Service.process(Service.java:139)"
+2026-02-17T05:48:36.580Z,payment-service,INFO,Payment initiated,com.company.paymentservice.Service,5dc3c6c3927d303a5af90fc8e05c3be7,production,,,
+2026-02-17T05:49:17.931Z,payment-service,INFO,User session started,com.company.paymentservice.Service,9eb50b60537cf4e57155af95a1e265a1,production,,,
+2026-02-17T05:49:06.476Z,payment-service,ERROR,Connection to payment-gateway timed out after 30s,com.company.paymentservice.Service,3480111c2bf62d6f9ef6c8a41177742c,production,SocketTimeoutException,Connection to payment-gateway timed out after 30s,"SocketTimeoutException: Connection to payment-gateway timed out after 30s
+	at com.company.service.Service.process(Service.java:177)"
+2026-02-17T05:49:25.498Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,a77f2395d3c39d1d0622936ee8b715dd,production,,,
+2026-02-17T05:49:28.129Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,621f87f32e7431a70ecfbd12917ba6b4,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:162)"
+2026-02-17T05:49:05.204Z,payment-service,INFO,Health check passed,com.company.paymentservice.Service,262e9240942dc65a21f0fbf48193d88f,production,,,
+2026-02-17T05:49:28.128Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,9c635b42dd45aa174cde5777472fa0a8,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:99)"
+2026-02-17T05:49:52.881Z,payment-service,ERROR,External service payment-gateway is unavailable,com.company.paymentservice.Service,054c5034a09adf2be66c344f7113b332,production,ServiceUnavailableException,External service payment-gateway is unavailable,"ServiceUnavailableException: External service payment-gateway is unavailable
+	at com.company.service.Service.process(Service.java:178)"
+2026-02-17T05:49:55.535Z,payment-service,ERROR,Connection refused to payment-gateway,com.company.paymentservice.Service,6a78141f791b3f6a0a5a46eb04ce7733,production,ConnectionRefusedException,Connection refused to payment-gateway,"ConnectionRefusedException: Connection refused to payment-gateway
+	at com.company.service.Service.process(Service.java:183)"

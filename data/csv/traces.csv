@@ -1,0 +1,301 @@
+timestamp,trace_id,span_id,parent_span_id,service,operation,duration_ms,status,error_type,error_message
+2026-02-17T04:49:54.676Z,01e5861c3465a312f444ddf21f8c57a7,span_450727,span_336812,payment-service,POST /api/v1/payments,193,ok,,
+2026-02-17T04:50:41.139Z,5a344096aff75a7c0c94d18dee3feba8,span_422773,span_297162,payment-service,POST /api/v1/checkout,473,ok,,
+2026-02-17T04:51:05.078Z,875eb946a1a3b4e52508cbb981f51749,span_594427,span_323290,payment-service,GET /api/v1/orders,165,ok,,
+2026-02-17T04:51:52.060Z,4c92b4cdbe89400496f538076d59de24,span_775999,span_716227,payment-service,POST /api/v1/payments,419,ok,,
+2026-02-17T04:52:38.079Z,12c83ac1f6568e0f88c4ad9f53ca0544,span_265066,span_873414,checkout-service,POST /api/v1/payments,476,ok,,
+2026-02-17T04:52:50.385Z,c7f799dbb64d0cebb03ac774c7fd0e21,span_210793,span_928109,user-service,POST /api/v1/checkout,330,ok,,
+2026-02-17T04:53:15.939Z,52c849a0792400aabf8dfed27c51d85e,span_647619,span_378665,notification-service,POST /api/v1/checkout,246,ok,,
+2026-02-17T04:54:40.881Z,e272786bded19e8c674fe2d8d871d391,span_931427,span_551658,notification-service,POST /api/v1/checkout,184,ok,,
+2026-02-17T04:54:45.216Z,77b5a79769a228375235449a0a0e274d,span_188840,span_357052,inventory-service,POST /api/v1/checkout,372,ok,,
+2026-02-17T04:55:26.994Z,9ff1b642a7185bc5619149bb291196fa,span_818338,span_783931,payment-service,POST /api/v1/checkout,142,ok,,
+2026-02-17T04:55:46.193Z,51cde9c3aa87383406eb779f75349d5c,span_283936,span_240582,inventory-service,GET /api/v1/orders,12155,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T04:57:04.539Z,369faa1ea2d89f9ab65df9f208b4c5c0,span_250337,span_337344,notification-service,GET /api/v1/orders,240,ok,,
+2026-02-17T04:57:09.163Z,f27bbbd8d6f5e8da0c3043bc65631668,span_719658,span_650477,user-service,GET /api/v1/orders,16947,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T04:58:13.897Z,46e533cf952aa772df60e6526c39be22,span_433753,span_938365,inventory-service,POST /api/v1/payments,401,ok,,
+2026-02-17T04:58:21.340Z,81156e6a72a0e8acd488de1d7f1e17a5,span_886085,span_611993,checkout-service,POST /api/v1/checkout,464,ok,,
+2026-02-17T04:58:37.095Z,beb8d860e8ab9f2427f79076d411defc,span_898066,span_448831,checkout-service,POST /api/v1/checkout,279,ok,,
+2026-02-17T04:59:52.773Z,175fd959b96da42951c7a2732d423980,span_867640,span_820031,inventory-service,GET /api/v1/orders,109,ok,,
+2026-02-17T04:59:57.006Z,7cf2389016c7629219ba3a32848541a3,span_127170,span_583863,user-service,POST /api/v1/payments,206,ok,,
+2026-02-17T05:00:21.740Z,4eb9620874234f2e41dddca22e65803b,span_300829,span_374922,payment-service,GET /api/v1/orders,50,ok,,
+2026-02-17T05:01:05.614Z,f6ad58d522ba9194e3de90bd8b95497d,span_279577,span_997269,payment-service,POST /api/v1/payments,7654,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T05:02:30.777Z,319776b928673cf15badc6ce0b11d040,span_443046,span_518231,notification-service,POST /api/v1/checkout,50,ok,,
+2026-02-17T05:03:00.556Z,f977b86c4d8f4d4e558e42a9ac92204f,span_885613,span_233810,inventory-service,GET /api/v1/orders,270,ok,,
+2026-02-17T05:02:45.465Z,6a3568477152c3b5036dc3a4f08670bb,span_294482,span_190688,user-service,GET /api/v1/orders,368,ok,,
+2026-02-17T05:03:52.441Z,f3e0a229370b4eb85a5f4b5d9e474312,span_238423,span_629397,notification-service,GET /api/v1/orders,251,ok,,
+2026-02-17T05:04:42.583Z,3002a5c1318e36af29746ee0f6cd6eef,span_388265,span_788511,inventory-service,POST /api/v1/checkout,401,ok,,
+2026-02-17T05:05:10.287Z,6545c320145e0991224a9f8e84dbacbf,span_844905,span_256952,inventory-service,POST /api/v1/payments,320,ok,,
+2026-02-17T05:05:19.516Z,ca2828af30c6bef0a0f64da3e5fe1dc1,span_916222,span_644167,payment-service,POST /api/v1/checkout,450,ok,,
+2026-02-17T05:06:37.709Z,d588ae12a9ea714e2dda8d638b037a5e,span_502263,span_144897,checkout-service,POST /api/v1/checkout,385,ok,,
+2026-02-17T05:06:47.109Z,94adbd49a7139cfe481fa0901d6c9000,span_237170,span_163084,inventory-service,POST /api/v1/payments,427,ok,,
+2026-02-17T05:07:40.129Z,b763e51bbacf48f24e10256ea9458e38,span_554771,span_864234,user-service,GET /api/v1/orders,53,ok,,
+2026-02-17T05:07:49.204Z,101686bc5c32166bbb56bb044b0455ca,span_575942,span_815532,user-service,GET /api/v1/orders,388,ok,,
+2026-02-17T05:08:58.994Z,37890de8ef2401d2b53d1170a3d8cbbf,span_562127,span_868588,user-service,GET /api/v1/orders,326,ok,,
+2026-02-17T05:08:57.125Z,e216f427418196342131c72a9982b381,span_379566,span_694844,user-service,POST /api/v1/checkout,488,ok,,
+2026-02-17T05:09:50.645Z,6cb8d2f9da88bb3540d74b3fbc8553e4,span_141342,span_107156,user-service,GET /api/v1/orders,124,ok,,
+2026-02-17T05:10:16.906Z,68caa1ca6f635736368556fe41342e27,span_260175,span_339908,payment-service,POST /api/v1/payments,458,ok,,
+2026-02-17T05:10:45.036Z,1fbe429d98637d933c76b6595149b38b,span_451009,span_212068,inventory-service,POST /api/v1/payments,349,ok,,
+2026-02-17T05:11:33.789Z,31cb6b67aa5d0ebfda35ccb1f6971735,span_671636,span_630737,checkout-service,GET /api/v1/orders,123,ok,,
+2026-02-17T05:12:33.140Z,b80d06601e8b7f85a6962f702db49fce,span_727562,span_677456,inventory-service,POST /api/v1/payments,395,ok,,
+2026-02-17T05:12:36.445Z,62043e15405b30b27a09d29c9d275aed,span_675953,span_267337,notification-service,POST /api/v1/payments,168,ok,,
+2026-02-17T05:13:25.109Z,6a18f9ce8538fb60558a105b5e68b140,span_763330,span_915168,notification-service,GET /api/v1/orders,247,ok,,
+2026-02-17T05:13:46.006Z,be275b105c4563989a1a71f2979f730b,span_441348,span_675668,user-service,POST /api/v1/checkout,239,ok,,
+2026-02-17T05:15:02.366Z,27347bcc71c734d0a9b01fd472e3952f,span_824371,span_736085,user-service,POST /api/v1/payments,445,ok,,
+2026-02-17T05:15:01.678Z,936d0a44db080d64472b0150e43ed788,span_346487,span_967602,user-service,GET /api/v1/orders,180,ok,,
+2026-02-17T05:16:18.651Z,216f8619d605957e29079a5a7ec9c5a1,span_515829,span_546375,payment-service,POST /api/v1/checkout,457,ok,,
+2026-02-17T05:16:15.885Z,61c1dc0ac4210877715eb036f260d65c,span_967226,span_708980,inventory-service,POST /api/v1/checkout,162,ok,,
+2026-02-17T05:17:22.102Z,bc0308ce19142a847a97f7177de6b612,span_302043,span_352158,notification-service,POST /api/v1/payments,127,ok,,
+2026-02-17T05:17:45.819Z,ce2f50acbe5207c187fcf6227a878764,span_282466,span_769444,checkout-service,GET /api/v1/orders,93,ok,,
+2026-02-17T05:18:07.376Z,042a1876fa93e279de966a9e0369ab34,span_460301,span_978283,notification-service,POST /api/v1/payments,196,ok,,
+2026-02-17T05:18:48.153Z,2d7145ab640319143b913b23096cb561,span_668678,span_125156,checkout-service,POST /api/v1/payments,396,ok,,
+2026-02-17T05:19:30.855Z,3ed8479abe9f6cca2560daad729f77d9,span_313280,span_381411,notification-service,POST /api/v1/payments,220,ok,,
+2026-02-17T05:20:20.671Z,8f2e0d3e55e2cc77ad50b657f195ac78,span_505943,span_995071,inventory-service,POST /api/v1/payments,84,ok,,
+2026-02-17T05:20:46.390Z,0a425f89d9c0641b56f7da7f778217c8,span_611205,span_856406,notification-service,POST /api/v1/payments,58,ok,,
+2026-02-17T05:21:02.793Z,26b85a5c614a2bde7ebd76baf9f9dbe7,span_163354,span_858355,notification-service,POST /api/v1/checkout,269,ok,,
+2026-02-17T05:21:25.914Z,eff61bcd74b2ad6a2dea76b1c75cea83,span_234902,span_832679,payment-service,POST /api/v1/checkout,342,ok,,
+2026-02-17T05:22:23.321Z,248cd7c1abb425e7d00b201e0abfc314,span_273061,span_776095,notification-service,GET /api/v1/orders,380,ok,,
+2026-02-17T05:22:59.620Z,6ec958d8412f6d6925b6e6248823ce96,span_736432,span_464304,checkout-service,GET /api/v1/orders,165,ok,,
+2026-02-17T05:23:26.561Z,1b7850e0509d4379b2e664e2e297d89e,span_416550,span_846054,payment-service,POST /api/v1/checkout,254,ok,,
+2026-02-17T05:24:30.760Z,48db79c21f960bd51554e9e09c50652d,span_621345,span_774270,checkout-service,POST /api/v1/payments,333,ok,,
+2026-02-17T05:24:35.496Z,9c41882621a93590b7bba86060d17a2f,span_404140,span_949482,checkout-service,POST /api/v1/checkout,55,ok,,
+2026-02-17T05:25:09.862Z,094d20f8ba228603eca3946b61d929be,span_919723,span_883036,payment-service,POST /api/v1/payments,291,ok,,
+2026-02-17T05:25:46.392Z,3a57ab5439405a2dc5734a4803847244,span_583970,span_828748,checkout-service,POST /api/v1/checkout,17075,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:26:40.732Z,c42bd3650629077a9d930fb862ed54c5,span_778906,span_599143,notification-service,GET /api/v1/orders,416,ok,,
+2026-02-17T05:27:07.295Z,920c4ffebad95e744ecdcc266b5516df,span_229073,span_767656,notification-service,GET /api/v1/orders,442,ok,,
+2026-02-17T05:27:52.989Z,b2ce409cf9c79176acfc53812cd0916b,span_495349,span_829230,payment-service,POST /api/v1/checkout,331,ok,,
+2026-02-17T05:28:26.046Z,59bc4a2470ed1114c32fc4deed30b513,span_977287,span_804583,inventory-service,GET /api/v1/orders,364,ok,,
+2026-02-17T05:29:20.705Z,3963f6fc67097771b02bed86ff75c9b0,span_383703,span_683487,inventory-service,POST /api/v1/checkout,69,ok,,
+2026-02-17T05:29:16.341Z,101326ce8934ee64303e6f3c6941b7ee,span_611937,span_662390,notification-service,POST /api/v1/checkout,177,ok,,
+2026-02-17T05:29:50.909Z,1a7335eb241e0eeaa034c4c49a483169,span_124041,span_574243,checkout-service,GET /api/v1/orders,92,ok,,
+2026-02-17T05:30:30.997Z,06ee4a9978227c19f96630b94617b87e,span_579608,span_207802,inventory-service,POST /api/v1/checkout,298,ok,,
+2026-02-17T05:30:58.779Z,74cd2d6061edbd57d5000dc7cd07ebe7,span_402913,span_326416,payment-service,POST /api/v1/checkout,302,ok,,
+2026-02-17T05:32:19.879Z,220d687d0f6bdc17972950bf5a672bab,span_154472,span_903560,inventory-service,POST /api/v1/checkout,385,ok,,
+2026-02-17T05:33:06.914Z,43f3791d4f074535a5fb57177a84ce9c,span_338570,span_753582,inventory-service,POST /api/v1/payments,281,ok,,
+2026-02-17T05:33:04.341Z,4b3747f81562c961c49b27af223d225d,span_306979,span_595352,inventory-service,GET /api/v1/orders,445,ok,,
+2026-02-17T05:33:49.245Z,88564eedc72a14ebc335f887795a5317,span_760150,span_970599,payment-service,GET /api/v1/orders,54,ok,,
+2026-02-17T05:34:31.066Z,b4f0ed41720d8fdb1fe4b4f4396bae2e,span_513686,span_106914,notification-service,POST /api/v1/payments,113,ok,,
+2026-02-17T05:34:39.207Z,c6d0a49cdce9bb97791d28e66250624a,span_586455,span_100579,user-service,GET /api/v1/orders,417,ok,,
+2026-02-17T05:35:38.726Z,e55deab443d8e694f0b398536c09fefc,span_457428,span_973815,checkout-service,POST /api/v1/payments,129,ok,,
+2026-02-17T05:36:12.033Z,139b4e18124665a2560adb3e1b79c863,span_114444,span_186198,notification-service,GET /api/v1/orders,291,ok,,
+2026-02-17T05:36:51.567Z,cb49bac4927271b8dae33d69df1ef845,span_851235,span_664984,checkout-service,POST /api/v1/checkout,391,ok,,
+2026-02-17T05:37:23.187Z,81bcc8a2d652eb8756658205415a0919,span_734285,span_138411,payment-service,POST /api/v1/checkout,346,ok,,
+2026-02-17T05:38:09.185Z,92d1cfedbceb6e1a7049e1156ceaf4db,span_867017,span_904991,inventory-service,POST /api/v1/payments,230,ok,,
+2026-02-17T05:39:02.609Z,61542fc71d469ec55788b5785a96278b,span_144425,span_800487,inventory-service,POST /api/v1/payments,205,ok,,
+2026-02-17T05:39:07.310Z,c229ee7261c658188576d835fe2a1302,span_331250,span_114672,payment-service,GET /api/v1/orders,93,ok,,
+2026-02-17T05:39:21.011Z,a36b661a8053eb3c1607460940ac361a,span_583988,span_563663,inventory-service,GET /api/v1/orders,401,ok,,
+2026-02-17T05:40:41.244Z,9c4c553479ff00511050f2eb7e52140b,span_464230,span_376031,notification-service,POST /api/v1/checkout,327,ok,,
+2026-02-17T05:41:28.596Z,e33c7e02df6ebd4cc3c99ab1295b0f9f,span_406623,span_245035,inventory-service,POST /api/v1/checkout,499,ok,,
+2026-02-17T05:41:57.631Z,f7374c8d47645e68d962b347822f6337,span_823408,span_206341,payment-service,GET /api/v1/orders,379,ok,,
+2026-02-17T05:42:30.653Z,2e56dd98b80e2654773056a17f50890e,span_818059,span_309678,user-service,POST /api/v1/payments,459,ok,,
+2026-02-17T05:42:58.040Z,c1967bacd65b9ce92079fbe8c31bf69d,span_436522,span_100797,inventory-service,GET /api/v1/orders,402,ok,,
+2026-02-17T05:42:56.315Z,4a39394e7c5eeeac799b42cbaadce571,span_516690,span_589270,user-service,POST /api/v1/checkout,452,ok,,
+2026-02-17T05:44:03.355Z,2abefe14cd18a76008014849c3958910,span_629669,span_670068,user-service,POST /api/v1/checkout,264,ok,,
+2026-02-17T05:45:04.753Z,c85073bee43f798f04e9218d46b096bb,span_548769,span_890847,user-service,GET /api/v1/orders,53,ok,,
+2026-02-17T05:45:25.130Z,39487fbb228c8532d9f42a2aec24a494,span_656425,span_997047,notification-service,POST /api/v1/payments,388,ok,,
+2026-02-17T05:45:37.623Z,5534f2acb438b2caa2bf2d03c7481764,span_681338,span_523413,inventory-service,GET /api/v1/orders,292,ok,,
+2026-02-17T05:46:15.932Z,da1df8d12b120f8583604abe3a6ac754,span_503131,span_711030,inventory-service,POST /api/v1/payments,267,ok,,
+2026-02-17T05:47:17.131Z,05a5e308c71d7056d51f72efedc8417d,span_620206,span_681524,inventory-service,POST /api/v1/checkout,399,ok,,
+2026-02-17T05:47:33.084Z,5b0af3c0871adf4d660cae52fdef5aef,span_531530,span_455901,payment-service,GET /api/v1/orders,177,ok,,
+2026-02-17T05:48:19.719Z,c8849f74bd437c07092cb5cbcfeed530,span_967332,span_800809,inventory-service,POST /api/v1/payments,169,ok,,
+2026-02-17T05:49:04.095Z,d75600ad301dc0cd7ec0c87c3569305e,span_479965,span_713923,checkout-service,POST /api/v1/checkout,245,ok,,
+2026-02-17T05:49:36.878Z,9375bd695d59e4994dae5f7a4edecabe,span_617911,span_217882,inventory-service,POST /api/v1/payments,406,ok,,
+2026-02-17T04:50:07.864Z,4575dec6cd3dec9046bcaff1938c931f,span_281951,span_409104,payment-service,GET /api/v1/orders,435,ok,,
+2026-02-17T04:50:28.694Z,a111fbce0296e69687089a2d5689cbca,span_805785,span_853815,payment-service,GET /api/v1/orders,467,ok,,
+2026-02-17T04:50:45.559Z,d2ede82abd0ac902e67b0dc4613d6ea3,span_151253,span_596989,payment-service,GET /api/v1/orders,6556,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T04:50:46.424Z,ac88711a0564ecf1de6388d3af319985,span_689716,span_543703,payment-service,POST /api/v1/checkout,27298,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T04:50:53.049Z,802860e1c07183d23a8cb71deda17488,span_277794,span_496416,payment-service,GET /api/v1/orders,79,ok,,
+2026-02-17T04:51:35.312Z,86c4cf750e7153543449a4918a6cdc84,span_577014,span_395431,payment-service,POST /api/v1/checkout,340,ok,,
+2026-02-17T04:51:55.809Z,e13664c6d430cdd32533f81dcf8964a0,span_461507,span_822175,payment-service,POST /api/v1/checkout,8301,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T04:52:35.038Z,ca825e3b56eea7544f5626dddc1a1964,span_411377,span_375843,payment-service,POST /api/v1/checkout,126,ok,,
+2026-02-17T04:52:08.155Z,70a4458d9bf8d0da6c2570e68d7750ae,span_186988,span_769547,payment-service,POST /api/v1/checkout,13817,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T04:52:46.901Z,3af43ea6b323ad323c2339480c959534,span_891853,span_327563,payment-service,GET /api/v1/orders,19992,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T04:52:51.829Z,b7382084630e5f90ac338eb7ebfda6a2,span_335611,span_925325,payment-service,POST /api/v1/payments,329,ok,,
+2026-02-17T04:53:35.827Z,ac352d121386e98dc62776efde402f46,span_962237,span_414830,payment-service,POST /api/v1/checkout,148,ok,,
+2026-02-17T04:53:21.172Z,22ec0ef66aca785cdb8665695c776405,span_817375,span_281363,payment-service,POST /api/v1/payments,70,ok,,
+2026-02-17T04:53:58.512Z,a84de4b42645778477296b3d787480a8,span_872780,span_802585,payment-service,POST /api/v1/checkout,8855,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T04:54:29.067Z,0f376bad01a3476a4ed3a047c242af06,span_633433,span_340370,payment-service,GET /api/v1/orders,149,ok,,
+2026-02-17T04:54:04.695Z,ca56009ff391bbd482ebf79cd8ff1c82,span_803082,span_365499,payment-service,POST /api/v1/checkout,9109,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T04:55:04.618Z,995b689daeea6ee386a71a112d18bbe7,span_351908,span_367651,payment-service,POST /api/v1/payments,202,ok,,
+2026-02-17T04:54:58.843Z,1fb42b25603e84ebcaf4847e02307ce3,span_868083,span_856297,payment-service,POST /api/v1/checkout,8712,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T04:55:15.117Z,735c77082c8b7f8600a0f04ca0854c7a,span_223479,span_219761,payment-service,GET /api/v1/orders,99,ok,,
+2026-02-17T04:55:28.488Z,a15814996519004d17f8dcb54203c0ee,span_203312,span_618145,payment-service,POST /api/v1/checkout,308,ok,,
+2026-02-17T04:55:52.669Z,003fb5f206bd8106c3087840c155a2c3,span_392879,span_865823,payment-service,POST /api/v1/payments,267,ok,,
+2026-02-17T04:56:41.196Z,464ccecf6b493b0423623e7a485fe74e,span_708580,span_930541,payment-service,POST /api/v1/checkout,62,ok,,
+2026-02-17T04:56:17.318Z,916b727119a064d125c0f7e30783ad93,span_944862,span_919730,payment-service,GET /api/v1/orders,147,ok,,
+2026-02-17T04:56:41.407Z,50f7e10f1f7861fd29932f05b104a011,span_212607,span_740324,payment-service,POST /api/v1/payments,355,ok,,
+2026-02-17T04:57:34.740Z,b445d2d52b192fd0e90fdf186fbf16f8,span_349376,span_818637,payment-service,GET /api/v1/orders,258,ok,,
+2026-02-17T04:57:16.447Z,56659e7acd66dde9df218475804dcfc6,span_771517,span_898989,payment-service,GET /api/v1/orders,55,ok,,
+2026-02-17T04:57:47.862Z,f9ac650a248961e8b343b9e076e7c321,span_406405,span_612259,payment-service,POST /api/v1/payments,16355,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T04:58:27.925Z,5b1fee795e2acbcb5b7a197c9df2909c,span_578268,span_792833,payment-service,POST /api/v1/payments,9000,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T04:58:53.744Z,b9273be41fb8e367e2cc4f37afaebf6a,span_738375,span_798656,payment-service,POST /api/v1/payments,306,ok,,
+2026-02-17T04:58:38.120Z,b34dab1916a90ba8b03e26e49853c727,span_719830,span_391418,payment-service,POST /api/v1/payments,18585,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T04:58:40.117Z,7527c2014787692809f80cc2d688c006,span_455381,span_996193,payment-service,GET /api/v1/orders,408,ok,,
+2026-02-17T04:59:01.360Z,acc562466ff6fec3faefb485f3632c8b,span_354415,span_768301,payment-service,POST /api/v1/payments,368,ok,,
+2026-02-17T04:59:21.596Z,ca3ccbda9bfce3660a1e05466ad11623,span_149477,span_876625,payment-service,GET /api/v1/orders,315,ok,,
+2026-02-17T04:59:33.603Z,d57f76dd4e60717cb4e411e53fe79504,span_150280,span_912931,payment-service,GET /api/v1/orders,201,ok,,
+2026-02-17T05:00:20.607Z,fdab7e4fbb2fbe1a01dfd337615a5b6c,span_981403,span_422206,payment-service,POST /api/v1/checkout,6526,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:00:45.691Z,0e57b58a92fe8feb7d12f01bba7d17fe,span_964972,span_948548,payment-service,POST /api/v1/checkout,221,ok,,
+2026-02-17T05:01:05.578Z,c0586de6faa05fbcb5ecab13736b99ab,span_260592,span_394121,payment-service,GET /api/v1/orders,5372,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:00:57.980Z,e64b271647c62500d86d77707f88507c,span_524448,span_768492,payment-service,GET /api/v1/orders,5879,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:01:13.853Z,9e79ad652afb09515f8a1c3ce35511c5,span_761128,span_712232,payment-service,POST /api/v1/checkout,22751,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:01:33.051Z,114554daac00ce1bd0f3d46e5c25f05d,span_236117,span_466967,payment-service,POST /api/v1/payments,458,ok,,
+2026-02-17T05:02:11.340Z,fb92dc29b3c5beb4de3e9d6e8b8737c0,span_694842,span_235438,payment-service,GET /api/v1/orders,8107,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:02:36.753Z,7917ad46b93cf083a853f3c14e805235,span_463811,span_199634,payment-service,GET /api/v1/orders,16393,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:02:54.825Z,be25ee678ad51c8ddf0744df89d28e17,span_571641,span_916471,payment-service,POST /api/v1/checkout,91,ok,,
+2026-02-17T05:02:42.568Z,5e1d46548254eab6328ca86c51280785,span_236230,span_873902,payment-service,GET /api/v1/orders,5735,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:03:02.448Z,20361490a42b5ccd35451a327b8af52f,span_551441,span_426707,payment-service,POST /api/v1/checkout,493,ok,,
+2026-02-17T05:03:16.898Z,953866ff4f97dbc0f71debac5f1e92c7,span_669801,span_100306,payment-service,POST /api/v1/checkout,307,ok,,
+2026-02-17T05:03:59.759Z,0839fcae3658c02137bfba7aa3100832,span_269496,span_302596,payment-service,POST /api/v1/payments,25496,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:04:05.100Z,d1f6ece9108b3270cc42736a9deb7c30,span_167313,span_478695,payment-service,GET /api/v1/orders,492,ok,,
+2026-02-17T05:04:50.402Z,994c0882d3eefc3afe83fe55655c62bd,span_606825,span_339262,payment-service,POST /api/v1/checkout,147,ok,,
+2026-02-17T05:05:07.634Z,b704b82684f8995ab0ffb3b65a6d1a5c,span_518972,span_657849,payment-service,GET /api/v1/orders,351,ok,,
+2026-02-17T05:04:58.327Z,ac401f8cf44ebf9170295a83d58e1672,span_708253,span_333339,payment-service,GET /api/v1/orders,24885,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:05:11.819Z,a98348df550f37e01fdf1c2d1320a5f3,span_973977,span_300060,payment-service,POST /api/v1/payments,19207,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:06:01.779Z,eebce11eb55b9a5f3e1b3c15d7c79ae5,span_682608,span_328779,payment-service,GET /api/v1/orders,8568,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:05:32.712Z,367b2169992a1177b49aba3a348cfac0,span_690474,span_382605,payment-service,POST /api/v1/checkout,22999,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:06:31.430Z,fc77362ba3ca7497fc7ccace1f13bb91,span_346251,span_241865,payment-service,GET /api/v1/orders,121,ok,,
+2026-02-17T05:06:37.016Z,501794f5d10232e84515b4ce5f034595,span_927349,span_580019,payment-service,POST /api/v1/payments,16596,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:06:46.461Z,19ee20f46e09a36c459103b508a67ba4,span_422740,span_689480,payment-service,POST /api/v1/payments,323,ok,,
+2026-02-17T05:06:43.856Z,3c524d78d1d0fd66a711c2eecf9e2922,span_828484,span_285481,payment-service,POST /api/v1/payments,67,ok,,
+2026-02-17T05:07:26.085Z,a0e76c073c07883490cae56de4107746,span_489353,span_487847,payment-service,POST /api/v1/payments,375,ok,,
+2026-02-17T05:08:06.455Z,e77c9b7c3905242f4b518179c627c7d1,span_504459,span_570679,payment-service,GET /api/v1/orders,14410,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:08:11.402Z,a704344ad754f1c38173bca56e68680b,span_939717,span_211367,payment-service,GET /api/v1/orders,124,ok,,
+2026-02-17T05:08:44.844Z,2276c5ceb9e30990a53cd251c761fbad,span_797643,span_989297,payment-service,POST /api/v1/checkout,26966,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:08:45.768Z,4006cc77bcc700cd953b7667cd45be47,span_246780,span_450413,payment-service,GET /api/v1/orders,304,ok,,
+2026-02-17T05:08:55.506Z,f7658619da48622b10c8301bc7cc7c28,span_802809,span_869629,payment-service,GET /api/v1/orders,454,ok,,
+2026-02-17T05:09:27.737Z,609596e423777caaa7861e2de9b3fb5b,span_616957,span_315246,payment-service,POST /api/v1/checkout,174,ok,,
+2026-02-17T05:09:43.108Z,ff789baab232ae7b4e5ea81595d1a033,span_598901,span_822217,payment-service,POST /api/v1/checkout,6826,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T05:09:42.029Z,8485802a74b01e9620a9a5e51956cbf2,span_291488,span_953102,payment-service,POST /api/v1/checkout,60,ok,,
+2026-02-17T05:10:14.842Z,2190fab24f2c2cb98d9863803975cd8c,span_755512,span_330153,payment-service,GET /api/v1/orders,374,ok,,
+2026-02-17T05:10:10.051Z,a8a40d83c83321d4ec47600679049653,span_368290,span_917328,payment-service,GET /api/v1/orders,474,ok,,
+2026-02-17T05:10:59.597Z,870f3ffe586b6e3461c8b49ab114a9fb,span_203257,span_742898,payment-service,POST /api/v1/payments,311,ok,,
+2026-02-17T05:11:28.154Z,7f7831d8b9e5556aed68bcae0d6e452f,span_401173,span_454337,payment-service,POST /api/v1/checkout,127,ok,,
+2026-02-17T05:10:50.967Z,71cb661db3265f6a82683f89f1581524,span_631219,span_424121,payment-service,GET /api/v1/orders,269,ok,,
+2026-02-17T05:11:45.262Z,db4fb37e65bb4c5002504891ba09d41f,span_516876,span_444961,payment-service,POST /api/v1/checkout,397,ok,,
+2026-02-17T05:11:28.127Z,88bf8d481d3226de1c9685dc009ccdca,span_494662,span_912887,payment-service,POST /api/v1/checkout,350,ok,,
+2026-02-17T05:12:35.992Z,c027bc75127077c9ec27a98811055939,span_880130,span_635705,payment-service,GET /api/v1/orders,380,ok,,
+2026-02-17T05:12:19.358Z,eff431afb2ca64587e5b7574f6e7986c,span_872106,span_863988,payment-service,POST /api/v1/payments,261,ok,,
+2026-02-17T05:12:56.161Z,d749d7011b436fda06fc3eb36ae86061,span_503364,span_962782,payment-service,GET /api/v1/orders,186,ok,,
+2026-02-17T05:13:01.648Z,791cff68eec026cce2b7a6fc64d1e523,span_801113,span_907314,payment-service,GET /api/v1/orders,431,ok,,
+2026-02-17T05:13:49.950Z,bb1e42cfb617082f80f1ea720125d509,span_389801,span_240547,payment-service,POST /api/v1/payments,435,ok,,
+2026-02-17T05:13:53.728Z,25f2d4a779322ca2a12d944f7280db7d,span_116225,span_745811,payment-service,POST /api/v1/payments,5462,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:14:24.422Z,81965b4a81bc7248ee5ebf16eb3668f4,span_587452,span_809110,payment-service,GET /api/v1/orders,26602,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:14:06.082Z,c957cf4ee3e149bee7480c92643ed35e,span_101526,span_384485,payment-service,GET /api/v1/orders,23053,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T05:14:48.219Z,90ea0906835baf6f8ca1b008a7c20027,span_358227,span_268602,payment-service,POST /api/v1/payments,482,ok,,
+2026-02-17T05:14:58.908Z,f2bbc3167fe131d2138706f3d1213173,span_710276,span_852063,payment-service,POST /api/v1/payments,244,ok,,
+2026-02-17T05:15:08.962Z,094a027592003671646b447019b0ffad,span_360888,span_219018,payment-service,GET /api/v1/orders,471,ok,,
+2026-02-17T05:15:20.058Z,b1abcfa1a2f6b35b0b90e3a67b51215f,span_944180,span_519073,payment-service,POST /api/v1/payments,484,ok,,
+2026-02-17T05:15:47.203Z,6198677b20c0b7cbcac649499ea3c04b,span_903852,span_660428,payment-service,POST /api/v1/checkout,451,ok,,
+2026-02-17T05:16:23.257Z,255f1b96087084256e39c5cf3aa72ab0,span_365166,span_913742,payment-service,POST /api/v1/checkout,20199,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T05:16:13.823Z,b75b52fad05e1b7042894cb9b9a72e4d,span_247217,span_619073,payment-service,GET /api/v1/orders,15216,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:16:23.934Z,9e57a242dfed244c505adfd6293b82ca,span_310599,span_251037,payment-service,GET /api/v1/orders,28412,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T05:17:01.127Z,91025b4f6a8fa9377755aa7e2eb8a6fe,span_609897,span_444234,payment-service,GET /api/v1/orders,215,ok,,
+2026-02-17T05:17:28.712Z,0ea7c283ce89714b3848a1bfcba2107a,span_490911,span_340427,payment-service,GET /api/v1/orders,210,ok,,
+2026-02-17T05:17:45.129Z,d3ecee45c47954c79623220d61db463c,span_129041,span_864715,payment-service,POST /api/v1/payments,204,ok,,
+2026-02-17T05:18:19.516Z,5c27d39dc7f0d2814cb0a7506aa56cf0,span_650559,span_505997,payment-service,POST /api/v1/payments,207,ok,,
+2026-02-17T05:18:41.364Z,0cde2ad339849b2d4522135f900ce31f,span_215867,span_981213,payment-service,GET /api/v1/orders,276,ok,,
+2026-02-17T05:18:19.962Z,8c3f764276b8f07688630ab22244610e,span_362567,span_582286,payment-service,GET /api/v1/orders,279,ok,,
+2026-02-17T05:18:53.717Z,7a72d6007eaf1a9098932baee45d88d5,span_815309,span_802131,payment-service,GET /api/v1/orders,53,ok,,
+2026-02-17T05:18:41.793Z,26e250df48d6894b0a6fa2dcb34f0940,span_450626,span_503051,payment-service,GET /api/v1/orders,14251,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:19:44.739Z,b9039ca1fa621226625a41cf14541dfe,span_167550,span_808325,payment-service,POST /api/v1/checkout,83,ok,,
+2026-02-17T05:20:10.632Z,62f2f5af0b61b8772d363a6de7d0e9ab,span_768774,span_815514,payment-service,POST /api/v1/checkout,185,ok,,
+2026-02-17T05:19:39.011Z,a3f3d5fbf461613dc83f4007980157a4,span_699135,span_100106,payment-service,GET /api/v1/orders,18077,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:20:12.499Z,bdd06fbce706526f68c44257905460e1,span_730402,span_385706,payment-service,POST /api/v1/payments,23684,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:20:15.304Z,e10156bb01ead0248054b5af5977def2,span_219422,span_711185,payment-service,POST /api/v1/checkout,24942,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:20:50.486Z,be9ccb21ff050675543b759cc79af592,span_112510,span_418543,payment-service,GET /api/v1/orders,12599,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:21:28.638Z,eec9a2d72316bfd7a88f8c95f6f551cf,span_481531,span_658244,payment-service,POST /api/v1/payments,364,ok,,
+2026-02-17T05:22:00.793Z,4aa3028260a9f964f742f3fd1b0f94b0,span_198728,span_814912,payment-service,POST /api/v1/payments,457,ok,,
+2026-02-17T05:21:51.273Z,1871ca320911bb52e31f5318f478d0f0,span_763313,span_913944,payment-service,POST /api/v1/checkout,5275,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:22:12.784Z,28cb7bb9f083774b180cf698e78d6ded,span_959775,span_653035,payment-service,GET /api/v1/orders,20063,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:21:58.034Z,446f2f6c3e0f7c0babd484cad1b0da2a,span_143478,span_780274,payment-service,POST /api/v1/checkout,29411,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:22:48.581Z,40e8b06a02837418436db50605f5aa35,span_264898,span_366774,payment-service,POST /api/v1/payments,498,ok,,
+2026-02-17T05:22:52.962Z,2827db56b83c3b99c62eac408eb1ade3,span_420671,span_961667,payment-service,GET /api/v1/orders,422,ok,,
+2026-02-17T05:23:38.603Z,dbaab0450326b6af7f23d0a777563e28,span_521310,span_539550,payment-service,POST /api/v1/checkout,11824,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T05:23:31.591Z,2477fb78c6f8edac610f91526994a8dc,span_756793,span_742188,payment-service,GET /api/v1/orders,15739,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:24:06.690Z,966ef6b3deb3869111426415aa355b17,span_425333,span_542279,payment-service,POST /api/v1/payments,360,ok,,
+2026-02-17T05:24:18.540Z,ac6a4223703eaf3f44b0becfb4694674,span_520916,span_296640,payment-service,POST /api/v1/payments,7067,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:24:25.485Z,d52c0fc54da9ccf7233cd36d052a3067,span_858216,span_148713,payment-service,GET /api/v1/orders,356,ok,,
+2026-02-17T05:24:37.710Z,864ee4490612fc4c7837c4d0e9260ff6,span_799059,span_447547,payment-service,GET /api/v1/orders,407,ok,,
+2026-02-17T05:24:58.739Z,b26b3d0e2c68e1c784c4bbb25b576462,span_648219,span_501597,payment-service,POST /api/v1/checkout,332,ok,,
+2026-02-17T05:25:46.850Z,5f61b5a433fdbdb5d5d4acf000564a12,span_426961,span_266525,payment-service,GET /api/v1/orders,312,ok,,
+2026-02-17T05:25:52.783Z,32bba3d5cb92a035374e6355a9252762,span_563339,span_462899,payment-service,POST /api/v1/payments,313,ok,,
+2026-02-17T05:26:25.981Z,fc00399d8fabe078c9240d0bb437106b,span_250657,span_880984,payment-service,GET /api/v1/orders,17936,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T05:26:24.898Z,1e8b081008fc6787648258bc771d34d1,span_948274,span_800781,payment-service,GET /api/v1/orders,70,ok,,
+2026-02-17T05:26:39.827Z,15d72ad24dfde337ca35fdc8e9764d7e,span_296533,span_364059,payment-service,GET /api/v1/orders,10397,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:27:16.083Z,6d762bdad6974612273f459459e155b8,span_857601,span_376149,payment-service,POST /api/v1/checkout,357,ok,,
+2026-02-17T05:27:34.885Z,0cc02e2075f729fb04f1388e21710700,span_694533,span_860426,payment-service,POST /api/v1/payments,12270,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T05:27:33.486Z,235c827dd06797fe34f70e3b4a7d12f1,span_358201,span_636476,payment-service,POST /api/v1/checkout,82,ok,,
+2026-02-17T05:27:49.435Z,fb754adc5eeb5d566767b23e62aea524,span_744343,span_829451,payment-service,POST /api/v1/checkout,27591,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:27:41.877Z,c5f819e5ab4eb3df4ff0683708699376,span_224069,span_521922,payment-service,POST /api/v1/payments,13083,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:28:12.642Z,f42f73e9d23584c496e5adad57ac8c2f,span_743851,span_954567,payment-service,GET /api/v1/orders,427,ok,,
+2026-02-17T05:28:51.313Z,68fdf9be19e7457319c86baab3c96f59,span_808282,span_940143,payment-service,GET /api/v1/orders,339,ok,,
+2026-02-17T05:29:28.746Z,8520652101ab5eb3b5c3ac4fce3f35bc,span_562767,span_862140,payment-service,GET /api/v1/orders,22415,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:28:53.889Z,dc549792c1a2ed52896ab60085f300cb,span_771531,span_257190,payment-service,POST /api/v1/payments,120,ok,,
+2026-02-17T05:29:58.397Z,9aa1f0147587228ff58df6886204ee4b,span_863271,span_947303,payment-service,GET /api/v1/orders,472,ok,,
+2026-02-17T05:30:09.106Z,df3285580dbfd02cd1a745b54686091c,span_239457,span_888273,payment-service,POST /api/v1/checkout,437,ok,,
+2026-02-17T05:30:08.156Z,627ca7cc1adf6740cae6197a7132f4f3,span_311549,span_576492,payment-service,POST /api/v1/payments,12274,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:30:04.967Z,4f101d2bed1b2d609a0b2a9a5d7ed80c,span_401599,span_705886,payment-service,POST /api/v1/payments,16990,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:30:46.676Z,effc2d7b841fbe4342ec4fb7d03bdcd6,span_109448,span_347570,payment-service,POST /api/v1/payments,364,ok,,
+2026-02-17T05:31:26.968Z,ab405de7b7ee7fdfef0778dc767b2b3d,span_267840,span_531853,payment-service,POST /api/v1/checkout,69,ok,,
+2026-02-17T05:31:25.360Z,338cf3b0cc3bbea901c7be88a318c770,span_891400,span_273416,payment-service,POST /api/v1/payments,493,ok,,
+2026-02-17T05:32:11.429Z,377bc79e9a5a0e555cdcc8551f5d34ef,span_114093,span_271019,payment-service,GET /api/v1/orders,217,ok,,
+2026-02-17T05:31:32.913Z,a96c97bf5311f520d54b102b6cf8d539,span_302471,span_525682,payment-service,POST /api/v1/checkout,396,ok,,
+2026-02-17T05:31:51.047Z,bfc89809b1faa38ffff7c12bceb6dce6,span_402020,span_288370,payment-service,POST /api/v1/payments,280,ok,,
+2026-02-17T05:32:26.563Z,8e30069188550630d73bcecbb08a0d8b,span_177316,span_408090,payment-service,GET /api/v1/orders,361,ok,,
+2026-02-17T05:32:28.127Z,8ad630a09c42134c4315615ffbb17aa4,span_724724,span_564792,payment-service,GET /api/v1/orders,9478,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:32:53.871Z,99e6e761e63400a3f5069747b98cde9d,span_155328,span_205130,payment-service,POST /api/v1/payments,188,ok,,
+2026-02-17T05:33:18.592Z,217d5a5d0c022129219e951d35c28b0f,span_173835,span_324106,payment-service,GET /api/v1/orders,94,ok,,
+2026-02-17T05:33:46.132Z,a7be46699f3894e8e14a3f96d3152cf8,span_792386,span_594587,payment-service,POST /api/v1/payments,6267,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:34:03.375Z,9c68702b576c7011ae81ad9362275236,span_597286,span_996683,payment-service,POST /api/v1/payments,396,ok,,
+2026-02-17T05:34:27.040Z,bd9bc962d0749e83b9ac6ba93bb5daf1,span_749209,span_635687,payment-service,GET /api/v1/orders,409,ok,,
+2026-02-17T05:34:20.972Z,1764d27b9027dacf2a57cde368ee2a1b,span_793103,span_598429,payment-service,GET /api/v1/orders,376,ok,,
+2026-02-17T05:34:52.050Z,f359374276636cf90b1e712ab673464c,span_198659,span_992543,payment-service,GET /api/v1/orders,266,ok,,
+2026-02-17T05:34:54.133Z,a287beacb315c2b09c10bbb30c38f9f3,span_402713,span_656891,payment-service,POST /api/v1/payments,138,ok,,
+2026-02-17T05:35:15.143Z,75bf8102dd749811c9bb1b4a7c2fed7d,span_508637,span_765825,payment-service,POST /api/v1/payments,357,ok,,
+2026-02-17T05:36:11.438Z,e65474903d53204bae5c9531b7de025e,span_146757,span_720092,payment-service,GET /api/v1/orders,7865,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:36:04.209Z,cff54567ef04d6a53bda2e01bbb8c84c,span_530198,span_887277,payment-service,POST /api/v1/payments,10453,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:36:20.839Z,f8b7bea12533941a51cee71325039f0b,span_320658,span_534305,payment-service,POST /api/v1/payments,18918,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:37:14.088Z,91f3d8633eb704d595557e6daa035a03,span_608636,span_772187,payment-service,POST /api/v1/checkout,481,ok,,
+2026-02-17T05:37:26.102Z,68df3b7714ec09b4c96e80eee20fe313,span_207389,span_260753,payment-service,POST /api/v1/payments,365,ok,,
+2026-02-17T05:36:58.685Z,493c6c1e5f161b890f267cde735201c7,span_597303,span_436896,payment-service,GET /api/v1/orders,9706,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:37:20.391Z,3ad2da8443a76de5ee8bb5d4210fb40f,span_628167,span_726507,payment-service,POST /api/v1/payments,299,ok,,
+2026-02-17T05:38:25.690Z,d4ac4849f4669466fed631ba0aad6a5c,span_810645,span_657439,payment-service,POST /api/v1/payments,156,ok,,
+2026-02-17T05:38:11.257Z,06ecd5043219787df296fb828d1c9ba5,span_918498,span_692486,payment-service,POST /api/v1/checkout,12625,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:38:09.064Z,579bf968ddbfc5e73bdfc3de8e0801d5,span_834844,span_554007,payment-service,POST /api/v1/payments,197,ok,,
+2026-02-17T05:38:43.250Z,3c010eb27c03ad5f4447ccd72fdbabce,span_371317,span_684004,payment-service,POST /api/v1/checkout,490,ok,,
+2026-02-17T05:39:13.085Z,e26c4d2213b4e003fb2544dc849bf68d,span_520431,span_470469,payment-service,GET /api/v1/orders,390,ok,,
+2026-02-17T05:39:57.317Z,9f0c0a5d270ec0a75125fb259cfd0974,span_353711,span_708477,payment-service,POST /api/v1/checkout,489,ok,,
+2026-02-17T05:39:42.998Z,0650e8d14fe61535ac92d3b2aa13de4c,span_640833,span_730650,payment-service,GET /api/v1/orders,118,ok,,
+2026-02-17T05:40:32.369Z,07f70d00bf39450f3ab6df1eff10bd38,span_987661,span_450669,payment-service,POST /api/v1/checkout,191,ok,,
+2026-02-17T05:40:51.387Z,a31a4e2a73f0f7e19d7450d5b630d0a7,span_653866,span_506579,payment-service,POST /api/v1/checkout,233,ok,,
+2026-02-17T05:40:49.333Z,8680042ef73650fa8b30cf4fb3387774,span_218806,span_432459,payment-service,GET /api/v1/orders,430,ok,,
+2026-02-17T05:41:13.422Z,d1801924e7cfdd48ad037e00b5fe1a46,span_619306,span_540944,payment-service,POST /api/v1/checkout,18307,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T05:41:40.849Z,cab9a6e77c712f12df21196e728e052b,span_312392,span_639867,payment-service,POST /api/v1/payments,108,ok,,
+2026-02-17T05:41:36.479Z,2c0ced835f7fc49e42db98bfdb60a351,span_738839,span_873455,payment-service,GET /api/v1/orders,354,ok,,
+2026-02-17T05:41:55.152Z,3992bdc085ce7439ccbb75f05c49c8d5,span_166679,span_292321,payment-service,POST /api/v1/checkout,68,ok,,
+2026-02-17T05:41:57.453Z,a6c705935868ee6f66c68b2965c12873,span_653774,span_967394,payment-service,POST /api/v1/checkout,21378,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:42:12.729Z,f670aa85f4a2b3b12124b9b54feec52b,span_876766,span_410789,payment-service,POST /api/v1/checkout,201,ok,,
+2026-02-17T05:42:51.575Z,a96f9c68189cd9c5806c3d3d1f50d2d7,span_215608,span_537781,payment-service,POST /api/v1/checkout,61,ok,,
+2026-02-17T05:43:22.328Z,596c8022258153d5c79fa74a1622e112,span_147969,span_461605,payment-service,POST /api/v1/checkout,284,ok,,
+2026-02-17T05:43:18.575Z,d5fea800b2055ac8616c950fcf9bb638,span_908631,span_910236,payment-service,GET /api/v1/orders,110,ok,,
+2026-02-17T05:43:56.860Z,ac8ead311328c5620c545e48e1fd9efb,span_767671,span_196571,payment-service,GET /api/v1/orders,232,ok,,
+2026-02-17T05:44:14.066Z,065d029849bfa7d693a921411e41cbeb,span_736845,span_593391,payment-service,GET /api/v1/orders,205,ok,,
+2026-02-17T05:44:31.877Z,1c4a95618c920bfbe29296b17c4df97d,span_407657,span_597008,payment-service,POST /api/v1/payments,13284,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T05:44:23.217Z,8266340fd057b8a78f709e56e4326e89,span_518550,span_761612,payment-service,POST /api/v1/payments,19598,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:44:29.529Z,5a09089edd72bbfd442553bf60b25328,span_611051,span_948534,payment-service,POST /api/v1/payments,28683,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T05:45:42.410Z,d813f58913d657658512e8abb06e5e06,span_332633,span_955042,payment-service,POST /api/v1/checkout,24986,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:45:58.163Z,c2f84777401b92ca55d23fc68290cd63,span_948836,span_333590,payment-service,GET /api/v1/orders,7287,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:46:13.121Z,5d56974b8406e686971b9228edee3b59,span_577328,span_309953,payment-service,POST /api/v1/payments,14257,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:45:42.050Z,f1ec1c41cbeb081c57cfb578b128aed6,span_900363,span_953465,payment-service,GET /api/v1/orders,17936,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:46:26.334Z,2e356ed50d9c3ae15de3c7e750c7ac67,span_551094,span_999655,payment-service,POST /api/v1/payments,19182,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:47:12.327Z,3132e2e68b26226bc123640589c8b214,span_968941,span_732097,payment-service,GET /api/v1/orders,13137,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:47:22.360Z,d10406a6e011afa41a2f107027aec471,span_514656,span_760779,payment-service,POST /api/v1/checkout,5601,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:47:11.704Z,a008aa026224ec38aec6d4c6c5561767,span_668583,span_620470,payment-service,GET /api/v1/orders,493,ok,,
+2026-02-17T05:47:25.614Z,3acbada9b6e9193234e488363398457c,span_482820,span_103688,payment-service,POST /api/v1/checkout,18011,error,SocketTimeoutException,Connection to payment-gateway timed out after 30s
+2026-02-17T05:47:58.416Z,edd13b4285f66d5e27f460e2355074ae,span_884283,span_430690,payment-service,GET /api/v1/orders,26507,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:47:58.429Z,a4cd94dfa762c604628d857edeaf62fc,span_846235,span_686792,payment-service,POST /api/v1/checkout,19894,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds
+2026-02-17T05:48:02.347Z,0dcf647a3ce6807013bb228ba1f9dfc6,span_433542,span_841084,payment-service,POST /api/v1/payments,62,ok,,
+2026-02-17T05:48:37.658Z,801aef6cffc5131ab9a01909721ddc9f,span_754470,span_125823,payment-service,POST /api/v1/checkout,11495,error,ServiceUnavailableException,External service payment-gateway is unavailable
+2026-02-17T05:49:28.273Z,9a62fabbb95c46f4b6a02de6b4784936,span_829957,span_518677,payment-service,POST /api/v1/payments,68,ok,,
+2026-02-17T05:49:27.436Z,cfbf6d33b671b50f24946b77ac7de0e5,span_819450,span_525162,payment-service,GET /api/v1/orders,12625,error,ConnectionRefusedException,Connection refused to payment-gateway
+2026-02-17T05:49:46.433Z,6e34f3b20f0ee4182fee67b6fc1b65dc,span_556469,span_297208,payment-service,POST /api/v1/checkout,29380,error,PaymentDeclinedException,Payment was declined by payment gateway: insufficient funds

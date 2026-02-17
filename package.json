@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "generate-data": "ts-node src/data-generator/index.ts",
+    "generate-csv": "ts-node src/data-generator/generate-csv.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },

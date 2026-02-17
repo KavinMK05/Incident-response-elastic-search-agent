@@ -1,0 +1,2 @@
+timestamp,alert_id,alert_type,service,severity,threshold,current_value,baseline_value,trigger,context_window_start,context_window_end,context_error_count
+2026-02-17T04:49:32.219Z,alert_error_spike_001,error_spike,payment-service,high,5,18.5,0.3,error_rate > threshold for 5 minutes,2026-02-17T04:44:32.219Z,2026-02-17T04:49:32.219Z,1847
