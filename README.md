@@ -1,6 +1,6 @@
-# Incident Response Agent
+# IncidentCopAI Agent
 
-An AI-powered incident response agent built with Elastic Agent Builder that automates production incident investigation, reducing response time from 30-60 minutes to under 2 minutes.
+An AI-powered incident response agent built with **Elastic Agent Builder** that automates production incident investigation, reducing response time from 30-60 minutes to under 2 minutes.
 
 ## What It Does
 
