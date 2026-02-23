@@ -1,0 +1,28 @@
+name: Slack Incident Triage
+description: Sends AI-generated triage reports to Slack
+
+inputs:
+  - name: ticket_key
+    type: string
+  - name: ticket_url
+    type: string
+  - name: incident_summary
+    type: string
+  - name: severity
+    type: string
+  - name: affected_services
+    type: string
+  - name: error_count
+    type: string
+  - name: root_cause
+    type: string
+
+triggers:
+  - type: manual
+
+steps:
+  - name: notify_slack
+    type: slack_api
+    connector-id: 3f7af57e-ace7-4040-b5a9-77e10a4b698f 
+    message: ":rotating_light: *AI SRE Triage Report* :rotating_light:\n\n*Summary:* {{ inputs.incident_summary }}\n*Severity:* {{ inputs.severity }}\n*Affected Services:* {{ inputs.affected_services }}\n*Error Count:* {{ inputs.error_count }}\n*Root Cause:* {{ inputs.root_cause }}\n\n*Ticket:* <{{ inputs.ticket_url }}|{{ inputs.ticket_key }}>"
+  
